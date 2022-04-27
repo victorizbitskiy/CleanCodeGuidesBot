@@ -1,6 +1,6 @@
 <img src="https://github.com/victorizbitskiy/CleanCodeGuidesBot/blob/main/docs/img/logo.png" height="100px"/>
 
-# Clean Code Guides Telegram Bot
+## Clean Code Guides Telegram Bot
 
 [![Telegram](https://img.shields.io/badge/Telegram-@CleanCodeGuidesBot-27A03E?style=flat&logo=telegram)](https://t.me/CleanCodeGuidesBot)
 
