@@ -1,0 +1,101 @@
+{
+  "source": "https://github.com/ryanmcdermott/clean-code-javascript",
+  "content": [
+    {
+      "item": "variables",
+      "children": [
+        { "item": "use-meaningful-and-pronounceable-variable-names" },
+        { "item": "use-the-same-vocabulary-for-the-same-type-of-variable" },
+        { "item": "use-searchable names" },
+        { "item": "use-explanatory-variables" },
+        { "item": "avoid-mental-mapping" },
+        { "item": "dont-add-unneeded-context" },
+        {
+          "item": "use-default-arguments-instead-of-short-circuiting-or-conditionals"
+        }
+      ]
+    },
+    {
+      "item": "functions",
+      "children": [
+        { "item": "function-arguments-2-or-fewer-ideally" },
+        { "item": "functions-should-do-one-thing" },
+        { "item": "function-names-should-say-what-they-do" },
+        { "item": "functions-should-only-be-one-level-of-abstraction" },
+        { "item": "remove-duplicate-code" },
+        { "item": "set-default-objects-with-objectassign" },
+        { "item": "dont-use-flags-as-function-parameters" },
+        { "item": "avoid-side-effects-part-1" },
+        { "item": "avoid-side-effects-part-2" },
+        { "item": "dont-write-to-global-functions" },
+        { "item": "favor-functional-programming-over-imperative-programming" },
+        { "item": "encapsulate-conditionals" },
+        { "item": "avoid-negative-conditionals" },
+        { "item": "avoid-conditionals" },
+        { "item": "avoid-type-checking-part-1" },
+        { "item": "avoid-type-checking-part-2" },
+        { "item": "dont-over-optimize" },
+        { "item": "remove-dead-code" }
+      ]
+    },
+    {
+      "item": "objects-and-data-structures",
+      "children": [
+        { "item": "use-getters-and-setters" },
+        { "item": "make-objects-have-private-members" }
+      ]
+    },
+    {
+      "item": "classes",
+      "children": [
+        { "item": "prefer-es2015es6-classes-over-es5-plain-functions" },
+        { "item": "use-method-chaining" },
+        { "item": "prefer-composition-over-inheritance" }
+      ]
+    },
+    {
+      "item": "solid",
+      "children": [
+        { "item": "single-responsibility-principle-srp" },
+        { "item": "openclosed-principle-ocp" },
+        { "item": "liskov-substitution-principle-lsp" },
+        { "item": "interface-segregation-principle-isp" },
+        { "item": "dependency-inversion-principle-dip" }
+      ]
+    },
+    {
+      "item": "testing",
+      "children": [{ "item": "single-concept-per-test" }]
+    },
+    {
+      "item": "concurrency",
+      "children": [
+        { "item": "use-promises-not-callbacks" },
+        { "item": "asyncawait-are-even-cleaner-than-promises" }
+      ]
+    },
+    {
+      "item": "error-handling",
+      "children": [
+        { "item": "dont-ignore-caught-errors" },
+        { "item": "dont-ignore-rejected-promises" }
+      ]
+    },
+    {
+      "item": "formatting",
+      "children": [
+        { "item": "use-consistent-capitalization" },
+        { "item": "function-callers-and-callees-should-be-close" }
+      ]
+    },
+    {
+      "item": "comments",
+      "children": [
+        { "item": "only-comment-things-that-have-business-logic-complexity" },
+        { "item": "dont-leave-commented-out-code-in-your-codebase" },
+        { "item": "dont-have-journal-comments" },
+        { "item": "avoid-positional-markers" }
+      ]
+    }
+  ]
+}

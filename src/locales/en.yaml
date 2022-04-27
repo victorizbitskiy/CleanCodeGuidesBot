@@ -1,0 +1,76 @@
+no_config: >
+  Configuration not found\. Please complete the settings with the `/config` command\.
+helptext: |
+  Bot commands: 
+  `/find \<section name\>` \- find a section by name
+  /random \- show a random section from Clean Code
+  /config \- configure the Bot
+  /menulang \- change menu language
+  /programlang \- change programming language
+  /schedule \- make a cron schedule
+  /keyboard \- show the keyboard
+  /help \- display help message
+scene_cancel: >
+  You have left the scene ${ctx.scene.current.id}
+no_matches_found: >
+  Sorry, no matches found. Try changing the request
+choose_menu_language: >
+  Choose a menu language
+choose_program_language: >
+  Choose a programming language\. 
+choose_content_language: >
+  Choose a content language\.
+choose_content_adaptation: >
+  Choose an adaptation\.
+admins_only: >
+  Sorry, this command is only available to administrators.
+changed_to_en: >
+  The language has been changed to English
+set_the_cron_schedule: |
+  Please, specify "/" and a cron scheduling expression\. \([help](https://crontab.guru/)\)\.
+  For example, `/0 10 \* \* 1-5` \- At 10:00 on every day\-of\-week from Monday through Friday\.
+schedules_has_been_deleted: >
+  The schedules has been deleted
+there_is_no_schedule: >
+  There is no cron schedule for you
+select_an_option_from_the_schedule: >
+  Please, select an option from the schedule setting menu
+set: >
+  Set
+del: >
+  Delete all
+cancel: >
+  Cancel
+exited_the_schedule_menu: >
+  You have exited the "Schedule" menu
+schedule_has_been_set: |
+  The cron schedule has been set\. 
+  next at
+then_at: >
+  then at
+invalid_cron_rule: >
+  Invalid input\. Please, enter a valid cron rule \([help](https://crontab.guru/)\) 
+  or type /cancel
+invalid_start_to_set_cron_rule: >
+  Invalid input\. Please, start with "/" and then set a cron rule
+  or type /cancel
+menulang_has_been_set: >
+  ${menuLangText} language has been set
+programlang_has_been_set: >
+  ${programLang} language has been set
+contentlang_has_been_set: >
+  ${contentLang} language has been set
+content_adaptation_has_been_set: >
+  "${contentAdaptation}" has been set
+setup_completed: >
+  Setup completed.
+please_set_menulang: >
+  Please set a menu language
+please_set_programlang: >
+  Please set a programming language
+please_set_contentlang: >
+  Please set a Clean Code segments language
+please_set_content_adaptation: |
+  Clean Code guides can be made by different translators. 
+  Please choose one of the suggested adaptations.
+

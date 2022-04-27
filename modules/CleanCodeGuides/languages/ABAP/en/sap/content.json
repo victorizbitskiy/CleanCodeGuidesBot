@@ -1,0 +1,415 @@
+{
+  "source": "https://github.com/SAP/styleguides/blob/main/clean-abap/CleanABAP.md",
+  "content": [
+    {
+      "item": "names",
+      "children": [
+        { "item": "use-descriptive-names" },
+        { "item": "prefer-solution-domain-and-problem-domain-terms" },
+        { "item": "use-plural" },
+        { "item": "use-pronounceable-names" },
+        { "item": "avoid-abbreviations" },
+        { "item": "use-same-abbreviations-everywhere" },
+        { "item": "use-nouns-for-classes-and-verbs-for-methods" },
+        { "item": "avoid-noise-words-such-as-data-info-object" },
+        { "item": "pick-one-word-per-concept" },
+        { "item": "use-pattern-names-only-if-you-mean-them" },
+        { "item": "avoid-encodings-esp-hungarian-notation-and-prefixes" },
+        { "item": "avoid-obscuring-built-in-functions" }
+      ]
+    },
+    {
+      "item": "language",
+      "children": [
+        { "item": "mind-the-legacy" },
+        { "item": "mind-the-performance" },
+        { "item": "prefer-object-orientation-to-procedural-programming" },
+        { "item": "prefer-functional-to-procedural-language-constructs" },
+        { "item": "avoid-obsolete-language-elements" },
+        { "item": "use-design-patterns-wisely" }
+      ]
+    },
+    {
+      "item": "constants",
+      "children": [
+        { "item": "use-constants-instead-of-magic-numbers" },
+        { "item": "prefer-enumeration-classes-to-constants-interfaces" },
+        { "item": "if-you-dont-use-enumeration-classes-group-your-constants" }
+      ]
+    },
+    {
+      "item": "variables",
+      "children": [
+        { "item": "prefer-inline-to-up-front-declarations" },
+        { "item": "dont-declare-inline-in-optional-branches" },
+        { "item": "do-not-chain-up-front-declarations" },
+        { "item": "prefer-ref-to-to-field-symbol" }
+      ]
+    },
+    {
+      "item": "tables",
+      "children": [
+        { "item": "use-the-right-table-type" },
+        { "item": "avoid-default-key" },
+        { "item": "prefer-insert-into-table-to-append-to" },
+        { "item": "prefer-line_exists-to-read-table-or-loop-at" },
+        { "item": "prefer-read-table-to-loop-at" },
+        { "item": "prefer-loop-at-where-to-nested-if" },
+        { "item": "avoid-unnecessary-table-reads" }
+      ]
+    },
+    {
+      "item": "strings",
+      "children": [
+        { "item": "use--to-define-literals" },
+        { "item": "use--to-assemble-text" }
+      ]
+    },
+    {
+      "item": "booleans",
+      "children": [
+        { "item": "use-booleans-wisely" },
+        { "item": "use-abap_bool-for-booleans" },
+        { "item": "use-abap_true-and-abap_false-for-comparisons" },
+        { "item": "use-xsdbool-to-set-boolean-variables" }
+      ]
+    },
+    {
+      "item": "conditions",
+      "children": [
+        { "item": "try-to-make-conditions-positive" },
+        { "item": "prefer-is-not-to-not-is" },
+        {
+          "item": "consider-using-predicative-method-calls-for-boolean-methods"
+        },
+        { "item": "consider-decomposing-complex-conditions" },
+        { "item": "consider-extracting-complex-conditions" }
+      ]
+    },
+    {
+      "item": "ifs",
+      "children": [
+        { "item": "no-empty-if-branches" },
+        {
+          "item": "prefer-case-to-else-if-for-multiple-alternative-conditions"
+        },
+        { "item": "keep-the-nesting-depth-low" }
+      ]
+    },
+    {
+      "item": "regular-expressions",
+      "children": [
+        { "item": "prefer-simpler-methods-to-regular-expressions" },
+        { "item": "prefer-basis-checks-to-regular-expressions" },
+        { "item": "consider-assembling-complex-regular-expressions" }
+      ]
+    },
+    {
+      "item": "classes",
+      "children": [
+        {
+          "item": "classes-object-orientation",
+          "children": [
+            { "item": "prefer-objects-to-static-classes" },
+            { "item": "prefer-composition-to-inheritance" },
+            { "item": "dont-mix-stateful-and-stateless-in-the-same-class" }
+          ]
+        },
+        {
+          "item": "scope",
+          "children": [
+            { "item": "global-by-default-local-only-where-appropriate" },
+            { "item": "final-if-not-designed-for-inheritance" },
+            { "item": "members-private-by-default-protected-only-if-needed" },
+            { "item": "consider-using-immutable-instead-of-getter" },
+            { "item": "use-read-only-sparingly" }
+          ]
+        },
+        {
+          "item": "constructors",
+          "children": [
+            { "item": "prefer-new-to-create-object" },
+            {
+              "item": "if-your-global-class-is-create-private-leave-the-constructor-public"
+            },
+            {
+              "item": "prefer-multiple-static-creation-methods-to-optional-parameters"
+            },
+            { "item": "use-descriptive-names-for-multiple-creation-methods" },
+            {
+              "item": "make-singletons-only-where-multiple-instances-dont-make-sense"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "methods",
+      "children": [
+        {
+          "item": "calls",
+          "children": [
+            { "item": "dont-call-static-methods-through-instance-variables" },
+            { "item": "prefer-functional-to-procedural-calls" },
+            { "item": "omit-receiving" },
+            { "item": "omit-the-optional-keyword-exporting" },
+            { "item": "omit-the-parameter-name-in-single-parameter-calls" },
+            {
+              "item": "omit-the-self-reference-me-when-calling-an-instance-attribute-or-method"
+            }
+          ]
+        },
+        {
+          "item": "methods-object-orientation",
+          "children": [
+            { "item": "prefer-instance-to-static-methods" },
+            { "item": "public-instance-methods-should-be-part-of-an-interface" }
+          ]
+        },
+        {
+          "item": "parameter-number",
+          "children": [
+            {
+              "item": "aim-for-few-importing-parameters-at-best-less-than-three"
+            },
+            { "item": "split-methods-instead-of-adding-optional-parameters" },
+            { "item": "use-preferred-parameter-sparingly" },
+            { "item": "return-export-or-change-exactly-one-parameter" }
+          ]
+        },
+        {
+          "item": "parameter-types",
+          "children": [
+            { "item": "prefer-returning-to-exporting" },
+            { "item": "returning-large-tables-is-usually-okay" },
+            {
+              "item": "use-either-returning-or-exporting-or-changing-but-not-a-combination"
+            },
+            { "item": "use-changing-sparingly-where-suited" },
+            { "item": "split-method-instead-of-boolean-input-parameter" }
+          ]
+        },
+        {
+          "item": "parameter-names",
+          "children": [
+            { "item": "consider-calling-the-returning-parameter-result" }
+          ]
+        },
+        {
+          "item": "parameter-initialization",
+          "children": [
+            { "item": "clear-or-overwrite-exporting-reference-parameters" },
+            { "item": "take-care-if-input-and-output-could-be-the-same" },
+            { "item": "dont-clear-value-parameters" }
+          ]
+        },
+        {
+          "item": "method-body",
+          "children": [
+            { "item": "do-one-thing-do-it-well-do-it-only" },
+            {
+              "item": "focus-on-the-happy-path-or-error-handling-but-not-both"
+            },
+            { "item": "descend-one-level-of-abstraction" },
+            { "item": "keep-methods-small" }
+          ]
+        },
+        {
+          "item": "control-flow",
+          "children": [
+            { "item": "fail-fast" },
+            { "item": "check-vs-return" },
+            { "item": "avoid-check-in-other-positions" }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "error-handling",
+      "children": [
+        {
+          "item": "messages",
+          "children": [{ "item": "make-messages-easy-to-find" }]
+        },
+        {
+          "item": "return-codes",
+          "children": [
+            { "item": "prefer-exceptions-to-return-codes" },
+            { "item": "dont-let-failures-slip-through" }
+          ]
+        },
+        {
+          "item": "exceptions",
+          "children": [
+            { "item": "exceptions-are-for-errors-not-for-regular-cases" },
+            { "item": "use-class-based-exceptions" }
+          ]
+        },
+        {
+          "item": "throwing",
+          "children": [
+            { "item": "use-own-super-classes" },
+            { "item": "throw-one-type-of-exception" },
+            {
+              "item": "use-sub-classes-to-enable-callers-to-distinguish-error-situations"
+            },
+            { "item": "throw-cx_static_check-for-manageable-exceptions" },
+            {
+              "item": "throw-cx_no_check-for-usually-unrecoverable-situations"
+            },
+            { "item": "consider-cx_dynamic_check-for-avoidable-exceptions" },
+            { "item": "dump-for-totally-unrecoverable-situations" },
+            { "item": "prefer-raise-exception-new-to-raise-exception-type" }
+          ]
+        },
+        {
+          "item": "catching",
+          "children": [
+            {
+              "item": "wrap-foreign-exceptions-instead-of-letting-them-invade-your-code"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "item": "comments",
+      "children": [
+        { "item": "express-yourself-in-code-not-in-comments" },
+        { "item": "comments-are-no-excuse-for-bad-names" },
+        { "item": "use-methods-instead-of-comments-to-segment-your-code" },
+        { "item": "write-comments-to-explain-the-why-not-the-what" },
+        { "item": "design-goes-into-the-design-documents-not-the-code" },
+        { "item": "comment-with--not-with-" },
+        { "item": "put-comments-before-the-statement-they-relate-to" },
+        { "item": "delete-code-instead-of-commenting-it" },
+        { "item": "use-fixme-todo-and-xxx-and-add-your-id" },
+        { "item": "dont-add-method-signature-and-end-of-comments" },
+        { "item": "dont-duplicate-message-texts-as-comments" },
+        { "item": "abap-doc-only-for-public-apis" },
+        { "item": "prefer-pragmas-to-pseudo-comments" }
+      ]
+    },
+    {
+      "item": "formatting",
+      "children": [
+        { "item": "be-consistent" },
+        { "item": "optimize-for-reading-not-for-writing" },
+        { "item": "use-the-pretty-printer-before-activating" },
+        { "item": "use-your-pretty-printer-team-settings" },
+        { "item": "no-more-than-one-statement-per-line" },
+        { "item": "stick-to-a-reasonable-line-length" },
+        { "item": "condense-your-code" },
+        { "item": "add-a-single-blank-line-to-separate-things-but-not-more" },
+        { "item": "dont-obsess-with-separating-blank-lines" },
+        {
+          "item": "align-assignments-to-the-same-object-but-not-to-different-ones"
+        },
+        { "item": "close-brackets-at-line-end" },
+        { "item": "keep-single-parameter-calls-on-one-line" },
+        { "item": "keep-parameters-behind-the-call" },
+        { "item": "if-you-break-indent-parameters-under-the-call" },
+        { "item": "line-break-multiple-parameters" },
+        { "item": "align-parameters" },
+        { "item": "break-the-call-to-a-new-line-if-the-line-gets-too-long" },
+        { "item": "indent-and-snap-to-tab" },
+        { "item": "indent-in-line-declarations-like-method-calls" },
+        { "item": "dont-align-type-clauses" },
+        { "item": "dont-chain-assignments" }
+      ]
+    },
+    {
+      "item": "testing",
+      "children": [
+        {
+          "item": "principles",
+          "children": [
+            { "item": "write-testable-code" },
+            { "item": "enable-others-to-mock-you" },
+            { "item": "readability-rules" },
+            { "item": "dont-make-copies-or-write-test-reports" },
+            { "item": "test-publics-not-private-internals" },
+            {
+              "item": "dont-obsess-about-coverage"
+            }
+          ]
+        },
+        {
+          "item": "test-classes",
+          "children": [
+            { "item": "call-local-test-classes-by-their-purpose" },
+            { "item": "put-tests-in-local-classes" },
+            { "item": "put-help-methods-in-help-classes" },
+            { "item": "how-to-execute-test-classes" }
+          ]
+        },
+        {
+          "item": "code-under-test",
+          "children": [
+            {
+              "item": "name-the-code-under-test-meaningfully-or-default-to-cut"
+            },
+            { "item": "test-against-interfaces-not-implementations" },
+            {
+              "item": "extract-the-call-to-the-code-under-test-to-its-own-method"
+            }
+          ]
+        },
+        {
+          "item": "injection",
+          "children": [
+            { "item": "use-dependency-inversion-to-inject-test-doubles" },
+            { "item": "consider-to-use-the-tool-abap-test-double" },
+            { "item": "exploit-the-test-tools" },
+            { "item": "use-test-seams-as-temporary-workaround" },
+            {
+              "item": "use-local-friends-to-access-the-dependency-inverting-constructor"
+            },
+            { "item": "dont-misuse-local-friends-to-invade-the-tested-code" },
+            {
+              "item": "dont-change-the-productive-code-to-make-the-code-testable"
+            },
+            { "item": "dont-sub-class-to-mock-methods" },
+            { "item": "dont-mock-stuff-thats-not-needed" },
+            { "item": "dont-build-test-frameworks" }
+          ]
+        },
+        {
+          "item": "test-methods",
+          "children": [
+            { "item": "test-method-names-reflect-whats-given-and-expected" },
+            { "item": "use-given-when-then" },
+            { "item": "when-is-exactly-one-call" },
+            { "item": "dont-add-a-teardown-unless-you-really-need-it" }
+          ]
+        },
+        {
+          "item": "test-data",
+          "children": [
+            { "item": "make-it-easy-to-spot-meaning" },
+            { "item": "make-it-easy-to-spot-differences" },
+            {
+              "item": "use-constants-to-describe-purpose-and-importance-of-test-data"
+            }
+          ]
+        },
+        {
+          "item": "assertions",
+          "children": [
+            { "item": "few-focused-assertions" },
+            { "item": "use-the-right-assert-type" },
+            { "item": "assert-content-not-quantity" },
+            { "item": "assert-quality-not-content" },
+            { "item": "use-fail-to-check-for-expected-exceptions" },
+            {
+              "item": "forward-unexpected-exceptions-instead-of-catching-and-failing"
+            },
+            {
+              "item": "write-custom-asserts-to-shorten-code-and-avoid-duplication"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

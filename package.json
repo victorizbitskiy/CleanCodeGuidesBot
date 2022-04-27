@@ -1,0 +1,31 @@
+{
+  "name": "cleancodeguidesbot",
+  "version": "1.0.0",
+  "description": "Clean Code Guides Telegram Bot",
+  "main": "src/bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorizbitskiy/CleanCodeGuidesBot.git"
+  },
+  "author": "victorizbitskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorizbitskiy/CleanCodeGuidesBot.git/issues"
+  },
+  "homepage": "https://github.com/victorizbitskiy/CleanCodeGuidesBot.git#readme",
+  "dependencies": {
+    "cron-parser": "^4.3.0",
+    "dotenv": "^16.0.0",
+    "fs": "0.0.1-security",
+    "fuse.js": "^6.5.3",
+    "node-schedule": "^2.1.0",
+    "path": "^0.12.7",
+    "pg": "^8.7.3",
+    "polyfill-object.fromentries": "^1.0.1",
+    "telegraf": "^4.7.0",
+    "telegraf-i18n": "^6.6.0"
+  }
+}

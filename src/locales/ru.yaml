@@ -1,0 +1,75 @@
+no_config: >
+  Конфигурация не найдена\. Пожалуйста, выполните настройки с помощью команды `/config`\.
+helptext: |
+  Команды бота:
+  `/find \<название секции\>` \- найти секцию по названию
+  /random \- случайная секция из Clean Code
+  /config \- выполнить настройку
+  /menulang \- изменить язык меню
+  /programlang \- изменить язык программирования
+  /schedule \- создать cron\-расписание для текущей настройки
+  /keyboard \- показать клавиатуру
+  /help \- справка
+scene_cancel: >
+  Вы покинули сцену ${ctx.scene.current.id}
+no_matches_found: >
+  Извините, совпадений не найдено. Попробуйте изменить запрос
+choose_menu_language: >
+  Выберите язык меню
+choose_program_language: >
+  Выберите язык программирования\.
+choose_content_language: >
+  Выберите язык содержимого разделов Чистого кода\.
+choose_content_adaptation: >
+  Пожалуйста, выберите адаптацию Чистого кода
+admins_only: >
+  Извините, необходимы права администратора
+changed_to_ru: >
+  Язык был изменен на Русский
+set_the_cron_schedule: |
+  Пожалуйста, укажите символ "/", а затем cron\-расписание \([помощь](https://crontab.guru/)\)\.
+  Например, `/0 10 \* \* 1-5` \- В 10:00 каждый день недели с Понедельника по Пятницу\.
+schedules_has_been_deleted: >
+  Расписания были удалены
+there_is_no_schedule: >
+  У вас еще не задано cron\-расписание
+select_an_option_from_the_schedule: >
+  Пожалуйста, выберите опцию
+set: >
+  Установить
+del: > 
+  Удалить все
+cancel: >
+  Отменить
+exited_the_schedule_menu: >
+  Вы вышли из меню "Расписание"
+schedule_has_been_set: |
+  Расписание было установлено\. 
+  следующее в 
+then_at: >
+  затем в
+invalid_cron_rule: >
+  Недопустимый ввод\. Пожалуйста, введите действительное cron\-правило \([помощь](https://crontab.guru/)\) 
+  или введите /cancel для выхода из меню "Расписание"
+invalid_start_to_set_cron_rule: >
+  Недопустимый ввод\. Пожалуйста, укажите символ "/" перед cron\-правилом
+  или введите /cancel для выхода из меню "Расписание"
+menulang_has_been_set: >
+  ${menuLangText} язык установлен
+programlang_has_been_set: >
+  Язык программирования ${programLang} установлен
+contentlang_has_been_set: >
+  Язык контента ${contentLang} установлен
+content_adaptation_has_been_set: >
+  Выбрана адаптация Чистого кода "${contentAdaptation}"
+setup_completed: >
+  Настройка завершена.
+please_set_menulang: >
+  Пожалуйста, выберите язык меню
+please_set_programlang: >
+  Пожалуйста, выберите язык программирования
+please_set_contentlang: >
+  Пожалуйста, выберите язык для содержимого разделов Чистого кода
+please_set_content_adaptation: |
+  Рекомендации Чистого кода могут быть сделаны разными переводчиками. 
+  Пожалуйста, выберите одну из предложенных адаптаций
