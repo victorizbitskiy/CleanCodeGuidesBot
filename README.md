@@ -4,6 +4,8 @@
 
 [![Telegram](https://img.shields.io/badge/Telegram-@CleanCodeGuidesBot-27A03E?style=flat&logo=telegram)](https://t.me/CleanCodeGuidesBot)
 
+**ATTENTION**: It is still under development and subject to change.
+
 This is a Telegram bot that has been created to help you make your code cleaner.
 It provides an interface to work with adaptations of [Robert C. Martin's](https://github.com/unclebob) [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) for several programming languages.  
  
