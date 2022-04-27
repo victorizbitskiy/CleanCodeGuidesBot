@@ -1,4 +1,4 @@
-<img src="https://github.com/victorizbitskiy/CleanCodeGuidesBot/blob/main/docs/img/logo.png" height="100px"/>
+<img src="https://github.com/victorizbitskiy/CleanCodeGuidesBot/blob/main/docs/img/logo.png" height="120px"/>
 
 ## Clean Code Guides Telegram Bot
 
