@@ -44,7 +44,7 @@ cancel: >
 exited_the_schedule_menu: >
   You have exited the "Schedule" menu
 schedule_has_been_set: |
-  The cron schedule has been set\. 
+  The cron schedule for ${schedule.program_lang} has been set\. 
   next at
 then_at: >
   then at

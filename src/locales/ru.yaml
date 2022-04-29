@@ -44,7 +44,7 @@ cancel: >
 exited_the_schedule_menu: >
   Вы вышли из меню "Расписание"
 schedule_has_been_set: |
-  Расписание было установлено\. 
+  Расписание для ${schedule.program_lang} было установлено\. 
   следующее в 
 then_at: >
   затем в

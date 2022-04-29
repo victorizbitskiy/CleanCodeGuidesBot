@@ -90,7 +90,7 @@ module.exports = new Scenes.WizardScene(
         if (schedule) {
           SchedulesController.createCronJob(schedule, ctx)
           const interval = cronParser.parseExpression(schedule.rule)
-          let cronText = `${ctx.i18n.t('schedule_has_been_set')} \`${interval.next()}\``
+          let cronText = `${ctx.i18n.t('schedule_has_been_set', {schedule})} \`${interval.next()}\``
 
           for (let i = 0; i < 4; i++) {
             cronText = `${cronText} \n ${ctx.i18n.t('then_at')} \`${interval.next()}\``

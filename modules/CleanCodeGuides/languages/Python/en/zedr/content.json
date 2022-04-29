@@ -1,0 +1,34 @@
+{
+  "source": "https://github.com/zedr/clean-code-python",
+  "content": [
+    {
+      "item": "variables",
+      "children": [
+        { "item": "use-meaningful-and-pronounceable-variable-names" },
+        { "item": "use-the-same-vocabulary-for-the-same-type-of-variable" },
+        { "item": "use-searchable-names" },
+        { "item": "use-explanatory-variables" },
+        { "item": "avoid-mental-mapping" },
+        { "item": "dont-add-unneeded-context" },
+        {
+          "item": "use-default-arguments-instead-of-short-circuiting-or-conditionals"
+        }
+      ]
+    },
+    {
+      "item": "functions",
+      "children": [
+        { "item": "function-arguments-2-or-fewer-ideally" },
+        { "item": "functions-should-do-one-thing" },
+        { "item": "function-names-should-say-what-they-do" },
+        { "item": "functions-should-only-be-one-level-of-abstraction" },
+        { "item": "dont-use-flags-as-function-parameters" },
+        { "item": "avoid-side-effects" }
+      ]
+    },
+    {
+      "item": "principle",
+      "children": [{ "item": "dont-repeat-yourself-dry" }]
+    }
+  ]
+}
