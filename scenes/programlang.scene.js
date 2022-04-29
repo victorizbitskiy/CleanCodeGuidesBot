@@ -67,8 +67,6 @@ stepHandler.action(/(\d)/, async ctx => {
   const programLang = programLangsList[idx]
   ctx.reply(ctx.i18n.t('programlang_has_been_set', { programLang }))
 
-
-
   ctx.state.chatConfiguration = {
     chat_id: chatCongig.chat_id,
     menu_lang: chatCongig.menu_lang,
