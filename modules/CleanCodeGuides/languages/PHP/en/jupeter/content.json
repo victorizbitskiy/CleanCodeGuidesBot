@@ -1,45 +1,59 @@
 {
-  "source": "https://github.com/leonardolemie/clean-code-java",
+  "source": "https://github.com/jupeter/clean-code-php",
   "content": [
     {
       "item": "variables",
       "children": [
         { "item": "use-meaningful-and-pronounceable-variable-names" },
         { "item": "use-the-same-vocabulary-for-the-same-type-of-variable" },
-        { "item": "use-searchable-names" },
+        { "item": "use-searchable-names-part-1" },
+        { "item": "use-searchable-names-part-2" },
         { "item": "use-explanatory-variables" },
+        { "item": "avoid-nesting-too-deeply-and-return-early-part-1" },
+        { "item": "avoid-nesting-too-deeply-and-return-early-part-2" },
         { "item": "avoid-mental-mapping" },
         { "item": "dont-add-unneeded-context" }
       ]
     },
     {
+      "item": "comparison",
+      "children": [
+        { "item": "use-identical-comparison" },
+        { "item": "null-coalescing-operator" }
+      ]
+    },
+    {
       "item": "functions",
       "children": [
+        { "item": "use-default-arguments-instead-of-short-circuiting-or-conditionals" },
         { "item": "function-arguments-2-or-fewer-ideally" },
-        { "item": "functions-should-do-one-thing" },
         { "item": "function-names-should-say-what-they-do" },
         { "item": "functions-should-only-be-one-level-of-abstraction" },
-        { "item": "remove-duplicate-code" },
         { "item": "dont-use-flags-as-function-parameters" },
-        { "item": "avoid-side-effects-part-1" },
-        { "item": "avoid-side-effects-part-2" },
+        { "item": "avoid-side-effects" },
         { "item": "dont-write-to-global-functions" },
-        { "item": "favor-functional-programming-over-imperative-programming" },
+        { "item": "dont-use-a-singleton-pattern" },
+        { "item": "encapsulate-conditionals" },
+        { "item": "avoid-negative-conditionals" },
         { "item": "avoid-conditionals" },
-        { "item": "dont-over-optimize" },
+        { "item": "avoid-type-checking-part-1" },
+        { "item": "avoid-type-checking-part-2" },
         { "item": "remove-dead-code" }
       ]
     },
     {
       "item": "objects-and-data-structures",
       "children": [
-        { "item": "use-getters-and-setters" }
+        { "item": "use-object-encapsulation" },
+        { "item": "make-objects-have-privateprotected-members" }
       ]
     },
     {
       "item": "classes",
       "children": [
-        { "item": "prefer-composition-over-inheritance" }
+        { "item": "prefer-composition-over-inheritance" },
+        { "item": "avoid-fluent-interfaces" },
+        { "item": "prefer-final-classes" }
       ]
     },
     {
@@ -53,31 +67,8 @@
       ]
     },
     {
-      "item": "testing",
-      "children": [{ "item": "testing" }]
-    },
-    {
-      "item": "error-handling",
-      "children": [
-        { "item": "dont-ignore-caught-errors" }
-      ]
-    },
-    {
-      "item": "formatting",
-      "children": [
-        { "item": "use-consistent-capitalization" },
-        { "item": "function-callers-and-callees-should-be-close" }
-      ]
-    },
-    {
-      "item": "comments",
-      "children": [
-        { "item": "only-comment-things-that-have-business-logic-complexity" },
-        { "item": "dont-use-a-comment-when-you-can-use-a-function-or-a-variable" },
-        { "item": "dont-leave-commented-out-code-in-your-codebase" },
-        { "item": "dont-have-journal-comments" },
-        { "item": "avoid-positional-markers" }
-      ]
+      "item": "dont-repeat-yourself-dry",
+      "children": [{ "item": "dont-repeat-yourself-dry" }]
     }
   ]
 }
