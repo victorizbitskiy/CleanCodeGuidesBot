@@ -18,7 +18,7 @@ duplicate code means creating an abstraction that can handle this set of differe
 things with just one function/module/class.
 
 Getting the abstraction right is critical, that's why you should follow the
-SOLID principles laid out in the [Classes](#classes) section. Bad abstractions can be
+SOLID principles laid out in the [Classes](https://github.com/jupeter/clean-code-php#classes) section. Bad abstractions can be
 worse than duplicate code, so be careful! Having said this, if you can make
 a good abstraction, do it! Don't repeat yourself, otherwise you'll find yourself
 updating multiple places any time you want to change one thing.
@@ -78,3 +78,4 @@ function showList(array $employees): void
         render([$employee->calculateExpectedSalary(), $employee->getExperience(), $employee->getGithubLink()]);
     }
 }
+```
