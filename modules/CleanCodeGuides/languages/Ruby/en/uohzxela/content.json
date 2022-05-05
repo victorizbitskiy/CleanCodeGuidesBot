@@ -1,0 +1,89 @@
+{
+  "source": "https://github.com/uohzxela/clean-code-ruby",
+  "content": [
+    {
+      "item": "variables",
+      "children": [
+        { "item": "use-meaningful-and-pronounceable-variable-names" },
+        { "item": "use-the-same-vocabulary-for-the-same-type-of-variable" },
+        { "item": "use-searchable names" },
+        { "item": "use-explanatory-variables" },
+        { "item": "avoid-mental-mapping" },
+        { "item": "dont-add-unneeded-context" },
+        {
+          "item": "use-default-arguments-instead-of-short-circuiting-or-conditionals"
+        }
+      ]
+    },
+    {
+      "item": "methods",
+      "children": [
+        { "item": "method-arguments-2-or-fewer-ideally" },
+        { "item": "methods-should-do-one-thing" },
+        { "item": "method-names-should-say-what-they-do" },
+        { "item": "methods-should-only-be-one-level-of-abstraction" },
+        { "item": "remove-duplicate-code" },
+        { "item": "dont-use-flags-as-method-parameters" },
+        { "item": "avoid-side-effects-part-1" },
+        { "item": "avoid-side-effects-part-2" },
+        { "item": "favor-functional-programming-over-imperative-programming" },
+        { "item": "encapsulate-conditionals" },
+        { "item": "avoid-negative-conditionals" },
+        { "item": "avoid-conditionals" },
+        { "item": "avoid-type-checking-part-1" },
+        { "item": "avoid-type-checking-part-2" },
+        { "item": "dont-over-optimize" },
+        { "item": "remove-dead-code" }
+      ]
+    },
+    {
+      "item": "objects-and-data-structures",
+      "children": [
+        { "item": "use-getters-and-setters" }
+      ]
+    },
+    {
+      "item": "classes",
+      "children": [
+        { "item": "avoid-fluent-interfaces" },
+        { "item": "prefer-composition-over-inheritance" }
+      ]
+    },
+    {
+      "item": "solid",
+      "children": [
+        { "item": "single-responsibility-principle-srp" },
+        { "item": "openclosed-principle-ocp" },
+        { "item": "liskov-substitution-principle-lsp" },
+        { "item": "interface-segregation-principle-isp" },
+        { "item": "dependency-inversion-principle-dip" }
+      ]
+    },
+    {
+      "item": "testing",
+      "children": [{ "item": "single-expectation-per-test" }]
+    },
+    {
+      "item": "error-handling",
+      "children": [
+        { "item": "dont-ignore-caught-errors" },
+        { "item": "provide-context-with-exceptions" }
+      ]
+    },
+    {
+      "item": "formatting",
+      "children": [
+        { "item": "formatting" },
+        { "item": "use-consistent-capitalization" },
+        { "item": "method-callers-and-callees-should-be-close" }
+      ]
+    },
+    {
+      "item": "comments",
+      "children": [
+        { "item": "dont-leave-commented-out-code-in-your-codebase" },
+        { "item": "dont-have-journal-comments" }
+      ]
+    }
+  ]
+}
