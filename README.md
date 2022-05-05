@@ -15,3 +15,34 @@ The following languages are currently supported:
 [![PHP](https://img.shields.io/badge/PHP-8892BF?style=flat-square&logo=php&logoColor=black)](https://www.php.net/)
 [![Python](https://img.shields.io/badge/Python-FFDE56?style=flat-square&logo=python&logoColor=3B83BD)](https://www.python.org)
 [![.NET](https://img.shields.io/badge/.NET-6C4675?style=flat-square&logo=.NET&logoColor=white)](https://dotnet.microsoft.com/en-us)
+
+**1. ABAP**
+- English:  
+  [SAP/styleguides](https://github.com/SAP/styleguides/blob/main/clean-abap/CleanABAP.md)
+- Russian:  
+  [victorizbitskiy/styleguides/blob/add-ru-translation/clean-abap/CleanABAP_ru](https://github.com/victorizbitskiy/styleguides/blob/add-ru-translation/clean-abap/CleanABAP_ru.md)  
+  
+**2. Java**
+- English:  
+  [leonardolemie/clean-code-java](https://github.com/leonardolemie/clean-code-java)
+  
+**3. JavaScript**  
+- English:  
+  [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)  
+- Russian:  
+  [BoryaMogila/clean-code-javascript-ru](https://github.com/BoryaMogila/clean-code-javascript-ru)   
+  [maksugr/clean-code-javascript](https://github.com/maksugr/clean-code-javascript)  
+  
+**4. PHP**
+- English:  
+  [jupeter/clean-code-php](https://github.com/jupeter/clean-code-php)
+- Russian:  
+  [peter-gribanov/clean-code-php](https://github.com/peter-gribanov/clean-code-php)  
+  
+**5. Python**
+- English:  
+  [zedr/clean-code-python](https://github.com/zedr/clean-code-python)  
+  
+**6. .NET**
+- English:  
+  [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet)  
