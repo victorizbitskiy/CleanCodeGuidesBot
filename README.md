@@ -43,6 +43,10 @@ The following languages are currently supported:
 - English:  
   [zedr/clean-code-python](https://github.com/zedr/clean-code-python)  
   
-**6. .NET**
+**6. Ruby**
+- English:  
+  [uohzxela/clean-code-ruby](https://github.com/uohzxela/clean-code-ruby)  
+  
+**7. .NET**
 - English:  
   [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet)  
