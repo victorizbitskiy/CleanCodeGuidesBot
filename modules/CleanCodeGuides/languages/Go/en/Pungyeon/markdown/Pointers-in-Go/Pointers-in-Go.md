@@ -1,0 +1,5 @@
+### Pointers in Go
+
+Pointers in Go are a rather extensive topic. They're a very big part of working with the language - so much so that it is essentially impossible to write Go without some knowledge of pointers and their workings in the language. Therefore, it is important to understand how to use pointers without adding unnecessary complexity \(and thereby keeping your codebase clean\). Note that we will not review the details of how pointers are implemented in Go. Instead, we will focus on the quirks of Go pointers and how we can handle them.
+
+Pointers add complexity to code. If we aren't cautious, incorrectly using pointers can introduce nasty side effects or bugs that are particularly difficult to debug. By sticking to the basic principles of writing clean code that we covered in the first part of this document, we can at least reduce the chances of introducing unnecessary complexity to our code.

@@ -1,0 +1,66 @@
+{
+  "source": "https://github.com/Pungyeon/clean-go-article#Clean-Go",
+  "content": [
+    {
+      "item": "Test-Driven-Development",
+      "children": [{ "item": "Test-Driven-Development" }]
+    },
+    {
+      "item": "Comments",
+      "children": [
+        { "item": "Comments" }, 
+        { "item": "Function-Naming" }, 
+        { "item": "Variable-Naming" }
+      ]
+    },
+    {
+      "item": "Cleaning-Functions",
+      "children": [
+        { "item": "Function-Length" },
+        { "item": "Function-Signatures" }
+      ]
+    },
+    {
+      "item": "Variable-Scope",
+      "children": [{ "item": "Variable-Scope" }]
+    },
+    {
+      "item": "Variable-Declaration",
+      "children": [{ "item": "Variable-Declaration" }]
+    },
+    {
+      "item": "Return-Values",
+      "children": [
+        { "item": "Returning-Defined-Errors" },
+        { "item": "Returning-Dynamic-Errors" }
+      ]
+    },
+    {
+      "item": "Nil-Values",
+      "children": [{ "item": "Nil-Values" }]
+    },
+    {
+      "item": "Pointers-in-Go",
+      "children": [
+        { "item": "Pointers-in-Go" },
+        { "item": "Pointer-Mutability" }
+      ]
+    },
+    {
+      "item": "Closures-are-Function-Pointers",
+      "children": [{ "item": "Closures-are-Function-Pointers" }]
+    },
+    {
+      "item": "Interfaces-in-Go",
+      "children": [{ "item": "Interfaces-in-Go" }]
+    },
+    {
+      "item": "The-Empty-Interface",
+      "children": [{ "item": "The-Empty-Interface" }]
+    },
+    {
+      "item": "Summary",
+      "children": [{ "item": "Summary" }]
+    }
+  ]
+}
