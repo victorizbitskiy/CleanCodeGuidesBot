@@ -1,6 +1,6 @@
 ## **Functions**
 
-Encapsulate conditionals  
+### Encapsulate conditionals  
 
 **Bad:**
 ```javascript
