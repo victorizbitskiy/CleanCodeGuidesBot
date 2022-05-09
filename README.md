@@ -74,7 +74,9 @@ The following languages are currently supported:
 </details>
 
 ### How to contribute
-[This instruction](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) or [this one](https://github.com/firstcontributions/first-contributions) will help you.
-  
+If you are new to github [this instruction](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) or [this one](https://github.com/firstcontributions/first-contributions) will help you.  
+
+To add a new programming language, just create a folder of the same name in [this directory](https://github.com/victorizbitskiy/CleanCodeGuidesBot/tree/main/modules/CleanCodeGuides/languages), by analogy with others.
+
 ### Got questions?
 If you have questions or general suggestions, don't hesitate to submit a new [(GitHub issue)](https://github.com/victorizbitskiy/CleanCodeGuidesBot/issues).
