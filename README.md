@@ -21,7 +21,7 @@ The following languages are currently supported:
 
 ### Sources of Clean Code adaptations
 
-<details open>
+<details>
 <base target="_blank">
 <summary>List...</summary>
 <br>
