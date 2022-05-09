@@ -1,8 +1,10 @@
-## **Objects and Data Structures**
+## Objects and Data Structures
 ### Use getters and setters
+
 Using getters and setters to access data on objects could be better than simply
 looking for a property on an object. "Why?" you might ask. Well, here's an
-unorganized list of reasons why:
+unorganized list of reasons why:  
+
 - When you want to do more beyond getting an object property, you don't have
   to look up and change every accessor in your codebase.
 - Makes adding validation simple when doing a `set`.
@@ -12,6 +14,7 @@ unorganized list of reasons why:
   server.  
 
 **Bad:**
+
 ```javascript
 function makeBankAccount() {
   // ...
@@ -27,6 +30,7 @@ account.balance = 100;
 ```
 
 **Good:**
+
 ```javascript
 function makeBankAccount() {
   // this one is private

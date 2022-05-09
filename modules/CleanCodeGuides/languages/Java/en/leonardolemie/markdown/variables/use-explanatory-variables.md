@@ -1,8 +1,9 @@
-## **Variables**
+## Variables
 
 ### Use explanatory variables
 
 **Bad:**
+
 ```java
 String address = "One Infinite Loop, Cupertino 95014";
 String cityZipCodeRegex = "/^[^,\\\\]+[,\\\\\\s]+(.+?)\\s*(\\d{5})?$/";
@@ -12,6 +13,7 @@ saveCityZipCode(address.split(cityZipCodeRegex)[0],
 ```
 
 **Good:**
+
 ```java
   String address = "One Infinite Loop, Cupertino 95014";
   String cityZipCodeRegex = "/^[^,\\\\]+[,\\\\\\s]+(.+?)\\s*(\\d{5})?$/";

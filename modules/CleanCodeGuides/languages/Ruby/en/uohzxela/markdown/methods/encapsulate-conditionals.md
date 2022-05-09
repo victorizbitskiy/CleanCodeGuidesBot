@@ -1,7 +1,9 @@
-## **Methods**
+## Methods
+
 ### Encapsulate conditionals
 
 **Bad:**
+
 ```ruby
 if params[:message].present? && params[:recipient].present?
   # ...
@@ -9,6 +11,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 def send_message?(params)
   params[:message].present? && params[:recipient].present?

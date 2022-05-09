@@ -4,7 +4,9 @@
 Callbacks aren't clean, and they cause excessive amounts of nesting *\(the callback hell\)*.  
 There are utilities that transform existing functions using the callback style to a version that returns promises
 \(for Node.js see [`util.promisify`](https://nodejs.org/dist/latest-v8.x/docs/api/util.html#util_util_promisify_original), for general purpose see [pify](https://www.npmjs.com/package/pify), [es6-promisify](https://www.npmjs.com/package/es6-promisify)\)
+
 **Bad:**
+
 ```ts
 import { get } from 'request';
 import { writeFile } from 'fs';
@@ -33,7 +35,9 @@ downloadPage('https://en.wikipedia.org/wiki/Robert_Cecil_Martin', 'article.html'
   }
 });
 ```
+
 **Good:**
+
 ```ts
 import { get } from 'request';
 import { writeFile } from 'fs';

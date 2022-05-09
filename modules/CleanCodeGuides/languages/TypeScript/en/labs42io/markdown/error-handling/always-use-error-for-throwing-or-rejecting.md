@@ -1,4 +1,5 @@
 ## Error Handling
+
 ### Always use Error for throwing or rejecting
 
 JavaScript as well as TypeScript allow you to `throw` any object. A Promise can also be rejected with any reason object.  
@@ -6,7 +7,9 @@ It is advisable to use the `throw` syntax with an `Error` type. This is because 
 It would be very confusing to catch a string message there and would make
 [debugging more painful](https://basarat.gitbook.io/typescript/type-system/exceptions#always-use-error).  
 For the same reason you should reject promises with `Error` types.
+
 **Bad:**
+
 ```ts
 function calculateTotal(items: Item[]): number {
   throw 'Not implemented.';
@@ -15,7 +18,9 @@ function get(): Promise<Item[]> {
   return Promise.reject('Not implemented.');
 }
 ```
+
 **Good:**
+
 ```ts
 function calculateTotal(items: Item[]): number {
   throw new Error('Not implemented.');
@@ -28,10 +33,12 @@ async function get(): Promise<Item[]> {
   throw new Error('Not implemented.');
 }
 ```
+
 The benefit of using `Error` types is that it is supported by the syntax `try/catch/finally` and implicitly all errors have the `stack` property which
 is very powerful for debugging.  
 There are also other alternatives, not to use the `throw` syntax and instead always return custom error objects. TypeScript makes this even easier.
 Consider the following example:
+
 ```ts
 type Result<R> = { isError: false, value: R };
 type Failure<E> = { isError: true, error: E };

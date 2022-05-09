@@ -1,9 +1,11 @@
-## **Variables**
+## Variables
 
 ### Avoid Mental Mapping  
 
 Don’t force the reader of your code to translate what the variable means. Explicit is better than implicit.
+
 **Bad:**
+
 ```java
 String [] l = {"Austin", "New York", "San Francisco"};
 

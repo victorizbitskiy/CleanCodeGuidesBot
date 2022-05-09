@@ -1,9 +1,10 @@
-## **Variables**
+## Variables
 ### Avoid Mental Mapping  
 
 Explicit is better than implicit.  
 
 **Bad:**
+
 ```javascript
 const locations = ["Austin", "New York", "San Francisco"];
 locations.forEach(l => {
@@ -18,6 +19,7 @@ locations.forEach(l => {
 ```
 
 **Good:**
+
 ```javascript
 const locations = ["Austin", "New York", "San Francisco"];
 locations.forEach(location => {

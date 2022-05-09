@@ -1,8 +1,11 @@
 ## Concurrency
+
 ### Async/Await are even cleaner than Promises
 
 With `async`/`await` syntax you can write code that is far cleaner and more understandable than chained promises. Within a function prefixed with `async` keyword, you have a way to tell the JavaScript runtime to pause the execution of code on the `await` keyword \(when used on a promise\).
+
 **Bad:**
+
 ```ts
 import { get } from 'request';
 import { writeFile } from 'fs';
@@ -18,7 +21,9 @@ downloadPage('https://en.wikipedia.org/wiki/Robert_Cecil_Martin', 'article.html'
   .then(content => console.log(content))
   .catch(error => console.error(error));  
 ```
+
 **Good:**
+
 ```ts
 import { get } from 'request';
 import { writeFile } from 'fs';

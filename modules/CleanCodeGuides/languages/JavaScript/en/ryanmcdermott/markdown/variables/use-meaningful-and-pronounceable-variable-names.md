@@ -1,4 +1,5 @@
-## **Variables**
+## Variables
+
 ### Use meaningful and pronounceable variable names
 
 **Bad:**

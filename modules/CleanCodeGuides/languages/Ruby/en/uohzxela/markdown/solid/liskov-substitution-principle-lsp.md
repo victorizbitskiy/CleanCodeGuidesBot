@@ -1,4 +1,4 @@
-## **SOLID**
+## SOLID
 ### Liskov Substitution Principle \(LSP\)
 
 This is a scary term for a very simple concept. It's formally defined as "If S
@@ -15,6 +15,7 @@ if you model it using the "is-a" relationship via inheritance, you quickly
 get into trouble.
 
 **Bad:**
+
 ```ruby
 class Rectangle
   def initialize
@@ -69,6 +70,7 @@ render_large_rectangles(rectangles)
 ```
 
 **Good:**
+
 ```ruby
 class Shape
   def color=(color)

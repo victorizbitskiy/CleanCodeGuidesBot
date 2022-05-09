@@ -1,9 +1,11 @@
-## **Concurrency**
+## Concurrency
 ### Use Promises, not callbacks
+
 Callbacks aren't clean, and they cause excessive amounts of nesting. With ES2015/ES6,
 Promises are a built-in global type. Use them!  
 
 **Bad:**
+
 ```javascript
 import { get } from "request";
 import { writeFile } from "fs";
@@ -27,6 +29,7 @@ get(
 ```
 
 **Good:**
+
 ```javascript
 import { get } from "request-promise";
 import { writeFile } from "fs-extra";

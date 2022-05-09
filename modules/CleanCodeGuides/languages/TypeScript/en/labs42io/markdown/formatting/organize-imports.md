@@ -1,4 +1,5 @@
 ## Formatting
+
 ### Organize imports
 
 With clean and easy to read import statements you can quickly see the dependencies of current code. Make sure you apply following good practices for `import` statements:

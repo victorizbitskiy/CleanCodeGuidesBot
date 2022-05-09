@@ -1,9 +1,12 @@
 ## SOLID
+
 ### Interface Segregation Principle \(ISP\)
 
 ISP states that "Clients should not be forced to depend upon interfaces that they do not use.". This principle is very much related to the Single Responsibility Principle.
 What it really means is that you should always design your abstractions in a way that the clients that are using the exposed methods do not get the whole pie instead. That also include imposing the clients with the burden of implementing methods that they don’t actually need.
+
 **Bad:**
+
 ```ts
 interface SmartPrinter {
   print();
@@ -39,7 +42,9 @@ class EconomicPrinter implements SmartPrinter {
   }
 }
 ```
+
 **Good:**
+
 ```ts
 interface Printer {
   print();

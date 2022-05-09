@@ -1,4 +1,5 @@
 ## SOLID
+
 ### Dependency Inversion Principle \(DIP\)
 
 This principle states two essential things:
@@ -7,7 +8,9 @@ This principle states two essential things:
 This can be hard to understand at first, but if you've worked with Angular, you've seen an implementation of this principle in the form of Dependency Injection \(DI\). While they are not identical concepts, DIP keeps high-level modules from knowing the details of its low-level modules and setting them up. It can accomplish this through DI. A huge benefit of this is that it reduces the coupling between modules. Coupling is a very bad development pattern because it makes your code hard to refactor.  
   
 DIP is usually achieved by a using an inversion of control \(IoC\) container. An example of a powerful IoC container for TypeScript is [InversifyJs](https://www.npmjs.com/package/inversify)
+
 **Bad:**
+
 ```ts
 import { readFile as readFileCb } from 'fs';
 import { promisify } from 'util';
@@ -40,7 +43,9 @@ class ReportReader {
 const reader = new ReportReader();
 const report = await reader.read('report.xml');
 ```
+
 **Good:**
+
 ```ts
 import { readFile as readFileCb } from 'fs';
 import { promisify } from 'util';
@@ -60,7 +65,6 @@ class XmlFormatter implements Formatter {
     // Converts an XML string to an object T
   }
 }
-
 
 class JsonFormatter implements Formatter {
   parse<T>(content: string): T {

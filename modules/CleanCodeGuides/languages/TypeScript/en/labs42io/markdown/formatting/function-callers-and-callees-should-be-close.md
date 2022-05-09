@@ -1,4 +1,5 @@
 ## Formatting
+
 ### Function callers and callees should be close
 
 If a function calls another, keep those functions vertically close in the source file. Ideally, keep the caller right above the callee.

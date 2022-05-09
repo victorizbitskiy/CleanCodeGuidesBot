@@ -1,4 +1,5 @@
 ## Comments
+
 ### Avoid positional markers
 
 They usually just add noise. Let the functions and variable names along with the proper indentation and formatting give the visual structure to your code.  

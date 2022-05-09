@@ -1,4 +1,5 @@
 ## Variables
+
 ### Use meaningful variable names
 
 Distinguish names in such a way that the reader knows what the differences offer.

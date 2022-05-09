@@ -1,8 +1,11 @@
 ## Objects and Data Structures
+
 ### Make objects have private members
 
 TypeScript supports `public` *\(default\)*, `protected` and `private` accessors on class members.  
+
 **Bad:**
+
 ```ts
 class Circle {
   radius: number;
@@ -20,7 +23,9 @@ class Circle {
   }
 }
 ```
+
 **Good:**
+
 ```ts
 class Circle {
   constructor(private readonly radius: number) {

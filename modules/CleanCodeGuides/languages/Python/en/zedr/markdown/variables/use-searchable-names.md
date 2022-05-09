@@ -17,7 +17,7 @@ import time
 time.sleep(86400)
 ```
 
-**Good**:
+**Good**
 
 ```python
 import time

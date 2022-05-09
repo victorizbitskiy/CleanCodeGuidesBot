@@ -1,7 +1,9 @@
-## **Variables**
+## Variables
+
 ### Use explanatory variables
 
 **Bad:**
+
 ```ruby
 address = 'One Infinite Loop, Cupertino 95014'
 city_zip_code_regex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/
@@ -9,6 +11,7 @@ save_city_zip_code(city_zip_code_regex.match(address)[1], city_zip_code_regex.ma
 ```
 
 **Good:**
+
 ```ruby
 address = 'One Infinite Loop, Cupertino 95014'
 city_zip_code_regex = /^[^,\\]+[,\\\s]+(.+?)\s*(\d{5})?$/

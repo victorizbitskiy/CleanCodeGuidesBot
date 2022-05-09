@@ -1,4 +1,5 @@
-## **Objects and Data Structures**
+## Objects and Data Structures
+
 ### Use getters and setters
 
 Using getters and setters to access data on objects could be better than simply
@@ -15,6 +16,7 @@ server.
 
 
 **Bad:**
+
 ```ruby
 def make_bank_account
   # ...
@@ -31,6 +33,7 @@ account[:balance] # => 100
 ```
 
 **Good:**
+
 ```ruby
 class BankAccount
   def initialize

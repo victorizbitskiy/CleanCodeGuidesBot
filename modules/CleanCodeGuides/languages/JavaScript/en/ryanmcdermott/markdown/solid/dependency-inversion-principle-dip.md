@@ -1,5 +1,7 @@
-## **SOLID**
+## SOLID
+
 ### Dependency Inversion Principle \(DIP\)
+
 This principle states two essential things:
 1. High-level modules should not depend on low-level modules. Both should
    depend on abstractions.
@@ -19,6 +21,7 @@ example below, the implicit contract is that any Request module for an
 `InventoryTracker` will have a `requestItems` method.  
 
 **Bad:**
+
 ```javascript
 class InventoryRequester {
   constructor() {
@@ -51,6 +54,7 @@ inventoryTracker.requestItems();
 ```
 
 **Good:**
+
 ```javascript
 class InventoryTracker {
   constructor(items, requester) {

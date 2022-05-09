@@ -1,6 +1,7 @@
-## **Functions**
+## Functions
 
 ### Avoid conditionals
+
 This seems like an impossible task. Upon first hearing this, most people say,
 "how am I supposed to do anything without an `if` statement?" The answer is that
 you can use polymorphism to achieve the same task in many cases. The second
@@ -11,6 +12,7 @@ are telling your user that your function does more than one thing. Remember,
 just do one thing.  
 
 **Bad:**
+
 ```javascript
 class Airplane {
   // ...
@@ -28,6 +30,7 @@ class Airplane {
 ```
 
 **Good:**
+
 ```javascript
 class Airplane {
   // ...

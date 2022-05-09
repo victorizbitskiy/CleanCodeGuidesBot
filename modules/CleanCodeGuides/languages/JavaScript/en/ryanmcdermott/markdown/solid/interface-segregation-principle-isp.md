@@ -1,5 +1,7 @@
-## **SOLID**
+## SOLID
+
 ### Interface Segregation Principle \(ISP\)
+
 JavaScript doesn't have interfaces so this principle doesn't apply as strictly
 as others. However, it's important and relevant even with JavaScript's lack of
 type system.
@@ -13,6 +15,7 @@ all of the settings. Making them optional helps prevent having a
 "fat interface".  
 
 **Bad:**
+
 ```javascript
 class DOMTraverser {
   constructor(settings) {
@@ -38,6 +41,7 @@ const $ = new DOMTraverser({
 ```
 
 **Good:**
+
 ```javascript
 class DOMTraverser {
   constructor(settings) {

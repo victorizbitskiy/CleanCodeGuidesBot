@@ -1,7 +1,9 @@
 ## Functions
+
 ### Function names should say what they do
 
 **Bad:**
+
 ```ts
 function addToDate(date: Date, month: number): Date {
   // ...
@@ -12,7 +14,9 @@ const date = new Date();
 // It's hard to tell from the function name what is added
 addToDate(date, 1);
 ```
+
 **Good:**
+
 ```ts
 function addMonthToDate(date: Date, month: number): Date {
   // ...

@@ -17,6 +17,7 @@ if (isset($_GET['name'])) {
 ```
 
 **Good:**
+
 ```php
 $name = $_GET['name'] ?? $_POST['name'] ?? 'nobody';
 ```

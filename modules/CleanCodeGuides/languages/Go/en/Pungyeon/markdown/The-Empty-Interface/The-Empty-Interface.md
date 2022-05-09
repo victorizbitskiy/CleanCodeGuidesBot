@@ -1,4 +1,5 @@
 ### The Empty `interface{}`
+
 Unlike other languages, Go does not have an implementation for generics. There have been many proposals for one, but all have been turned down by the Go language team. Unfortunately, without generics, developers must try to find creative alternatives, which very often involves using the empty `interface{}`. This section describes why these often *too* creative implementations should be considered bad practice and unclean code. There will also be examples of appropriate usage of the empty `interface{}` and how to avoid some pitfalls of writing code with it.
 
 As mentioned in a previous section, Go determines whether a concrete type implements a particular interface by checking whether the type implements the *methods* of that interface. So what happens if our interface declares no methods, as is the case with the empty interface?

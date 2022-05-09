@@ -1,4 +1,5 @@
-## **Classes**
+## Classes
+
 ### Avoid fluent interfaces
 
 A [Fluent interface](https://en.wikipedia.org/wiki/Fluent_interface) is an object
@@ -18,6 +19,7 @@ For more information you can read the full [blog post](https://ocramius.github.i
 on this topic written by [Marco Pivetta](https://github.com/Ocramius).
 
 **Bad:**
+
 ```ruby
 class Car
   def initialize(make, model, color)
@@ -59,6 +61,7 @@ car = Car.new('Ford','F-150','red')
 ```
 
 **Good:**
+
 ```ruby
 class Car
   attr_accessor :make, :model, :color

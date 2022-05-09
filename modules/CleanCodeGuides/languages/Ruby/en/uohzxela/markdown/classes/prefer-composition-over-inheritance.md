@@ -1,4 +1,5 @@
-## **Classes**
+## Classes
+
 ### Prefer composition over inheritance
 
 As stated famously in [*Design Patterns*](https://en.wikipedia.org/wiki/Design_Patterns) by the Gang of Four,
@@ -19,6 +20,7 @@ relationship \(Human->Animal vs. User->UserDetails\).
 \(Change the caloric expenditure of all animals when they move\).
 
 **Bad:**
+
 ```ruby
 class Employee
   def initialize(name, email)
@@ -41,6 +43,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 class EmployeeTaxData
   def initialize(ssn, salary)

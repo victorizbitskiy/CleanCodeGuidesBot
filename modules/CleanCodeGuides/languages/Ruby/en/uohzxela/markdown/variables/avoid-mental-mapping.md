@@ -1,9 +1,11 @@
-## **Variables**
+## Variables
+
 ### Avoid Mental Mapping  
 
 Explicit is better than implicit.
 
 **Bad:**
+
 ```ruby
 locations = ['Austin', 'New York', 'San Francisco']
 locations.each do |l|
@@ -18,6 +20,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 locations = ['Austin', 'New York', 'San Francisco']
 locations.each do |location|

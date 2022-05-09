@@ -32,7 +32,6 @@
         { "item": "avoid-conditionals" },
         { "item": "avoid-type-checking-part-1" },
         { "item": "avoid-type-checking-part-2" },
-        { "item": "dont-over-optimize" },
         { "item": "remove-dead-code" }
       ]
     },
@@ -66,6 +65,7 @@
     {
       "item": "error-handling",
       "children": [
+        { "item": "error-handling" },
         { "item": "dont-ignore-caught-errors" },
         { "item": "provide-context-with-exceptions" }
       ]

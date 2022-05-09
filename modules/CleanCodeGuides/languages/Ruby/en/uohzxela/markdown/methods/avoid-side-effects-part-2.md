@@ -1,4 +1,5 @@
-## **Methods**
+## Methods
+
 ### Avoid Side Effects \(part 2\)
 
 In Ruby, everything is an object and everything is passed by value, but these values are references to objects. In the case of objects and arrays, if your method makes a change
@@ -33,6 +34,7 @@ this kind of programming approach to be fast and not as memory intensive as
 it would be for you to manually clone objects and arrays.
 
 **Bad:**
+
 ```ruby
 def add_item_to_cart(cart, item)
   cart.push(item: item, time: Time.now)
@@ -40,6 +42,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 def add_item_to_cart(cart, item)
   cart + [{ item: item, time: Time.now }]

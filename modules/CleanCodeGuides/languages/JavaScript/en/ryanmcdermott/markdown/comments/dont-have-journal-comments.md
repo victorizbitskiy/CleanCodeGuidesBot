@@ -1,9 +1,12 @@
-## **Comments**
+## Comments
+
 ### Don't have journal comments
+
 Remember, use version control! There's no need for dead code, commented code,
 and especially journal comments. Use `git log` to get history!  
 
 **Bad:**
+
 ```javascript
 /**
  * 2016-12-20: Removed monads, didn't understand them (RM)
@@ -17,6 +20,7 @@ function combine(a, b) {
 ```
 
 **Good:**
+
 ```javascript
 function combine(a, b) {
   return a + b;

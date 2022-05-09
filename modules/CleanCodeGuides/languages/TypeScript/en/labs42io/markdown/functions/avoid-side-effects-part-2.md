@@ -1,4 +1,5 @@
 ## Functions
+
 ### Avoid Side Effects \(part 2\)
 
 Browsers and Node.js process only JavaScript, therefore any TypeScript code has to be compiled before running or debugging.  In JavaScript, some values are unchangeable \(immutable\) and some are changeable \(mutable\). Objects and arrays are two kinds of mutable values so it's important to handle them carefully when they're passed as parameters to a function. A JavaScript function can change an object's properties or alter the contents of an array which could easily cause bugs elsewhere.
@@ -8,13 +9,17 @@ A great solution would be for the `addItemToCart` function to always clone the `
 Two caveats to mention to this approach:
 1. There might be cases where you actually want to modify the input object, but when you adopt this programming practice you will find that those cases are pretty rare. Most things can be refactored to have no side effects! \(see [pure function](https://en.wikipedia.org/wiki/Pure_function)\)
 2. Cloning big objects can be very expensive in terms of performance. Luckily, this isn't a big issue in practice because there are [great libraries](https://facebook.github.io/immutable-js/) that allow this kind of programming approach to be fast and not as memory intensive as it would be for you to manually clone objects and arrays.
+
 **Bad:**
+
 ```ts
 function addItemToCart(cart: CartItem[], item: Item): void {
   cart.push({ item, date: Date.now() });
 };
 ```
+
 **Good:**
+
 ```ts
 function addItemToCart(cart: CartItem[], item: Item): CartItem[] {
   return [...cart, { item, date: Date.now() }];

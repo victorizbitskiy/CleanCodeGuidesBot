@@ -1,9 +1,12 @@
 ## Objects and Data Structures
+
 ### Prefer immutability
 
 TypeScript's type system allows you to mark individual properties on an interface/class as *readonly*. This allows you to work in a functional way \(an unexpected mutation is bad\).  
 For more advanced scenarios there is a built-in type `Readonly` that takes a type `T` and marks all of its properties as readonly using mapped types \(see [mapped types](https://www.typescriptlang.org/docs/handbook/advanced-types.html#mapped-types)\).
+
 **Bad:**
+
 ```ts
 interface Config {
   host: string;
@@ -32,7 +35,9 @@ const array: number[] = [ 1, 3, 5 ];
 array = []; // error
 array.push(100); // array will updated
 ```
+
 **Good:**
+
 ```ts
 const array: ReadonlyArray<number> = [ 1, 3, 5 ];
 array = []; // error
@@ -45,7 +50,9 @@ function hoge(args: readonly string[]) {
 }
 ```
 Prefer [const assertions](https://github.com/microsoft/TypeScript/wiki/What's-new-in-TypeScript#const-assertions) for literal values.
+
 **Bad:**
+
 ```ts
 const config = {
   hello: 'world'
@@ -63,7 +70,9 @@ function readonlyData(value: number) {
 const result = readonlyData(100);
 result.value = 200; // value is changed
 ```
+
 **Good:**
+
 ```ts
 // read-only object
 const config = {

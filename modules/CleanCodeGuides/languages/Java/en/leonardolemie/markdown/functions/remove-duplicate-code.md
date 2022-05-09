@@ -1,4 +1,5 @@
-## **Functions**
+## Functions
+
 ### Remove duplicate code
 
 Do your absolute best to avoid duplicate code. Duplicate code is bad because it means that there's more than one place to alter something if you need to change some logic.

@@ -1,5 +1,7 @@
-## **Classes**
+## Classes
+
 ### Prefer composition over inheritance
+
 As stated famously in [_Design Patterns_](https://en.wikipedia.org/wiki/Design_Patterns) by the Gang of Four,
 you should prefer composition over inheritance where you can. There are lots of
 good reasons to use inheritance and lots of good reasons to use composition.
@@ -14,7 +16,9 @@ makes more sense than composition:
 2. You can reuse code from the base classes \(Humans can move like all animals\).
 3. You want to make global changes to derived classes by changing a base class.
    \(Change the caloric expenditure of all animals when they move\).
+
 **Bad:**
+
 ```javascript
 class Employee {
   constructor(name, email) {
@@ -36,7 +40,9 @@ class EmployeeTaxData extends Employee {
   // ...
 }
 ```
+
 **Good:**
+
 ```javascript
 class EmployeeTaxData {
   constructor(ssn, salary) {

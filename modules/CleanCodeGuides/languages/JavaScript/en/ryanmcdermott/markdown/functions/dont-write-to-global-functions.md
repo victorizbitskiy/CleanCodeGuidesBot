@@ -1,4 +1,5 @@
-## **Functions**
+## Functions
+
 ### Don't write to global functions  
 
 Polluting globals is a bad practice in JavaScript because you could clash with another
@@ -12,6 +13,7 @@ the difference between the first and last elements of an array? This is why it
 would be much better to just use ES2015/ES6 classes and simply extend the `Array` global.  
 
 **Bad:**
+
 ```javascript
 Array.prototype.diff = function diff(comparisonArray) {
   const hash = new Set(comparisonArray);
@@ -20,6 +22,7 @@ Array.prototype.diff = function diff(comparisonArray) {
 ```
 
 **Good:**
+
 ```javascript
 class SuperArray extends Array {
   diff(comparisonArray) {

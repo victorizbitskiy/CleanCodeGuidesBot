@@ -1,4 +1,5 @@
 ## Variables
+
 ### Use pronounceable  variable names
 
 If you can’t pronounce it, you can’t discuss it without sounding like an idiot.

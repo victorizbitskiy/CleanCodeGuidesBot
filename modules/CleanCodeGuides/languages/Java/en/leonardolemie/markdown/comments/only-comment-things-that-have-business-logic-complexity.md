@@ -1,10 +1,11 @@
-## **Comments**
+## Comments
 
 ### Only comment things that have business logic complexity.
 
 Comments are an apology, not a requirement. Good code *mostly* documents itself.
 
 **Bad:**
+
 ```java
 // Creating a List of customer names 
 List<String> customerNames = Arrays.asList('Bob', 'Linda', 'Steve', 'Mary'); 
@@ -24,6 +25,7 @@ else {
 
 
 **Good:**
+
 ```java
 List<String> customerNames = Arrays.asList('Bob', 'Linda', 'Steve', 'Mary'); 
 

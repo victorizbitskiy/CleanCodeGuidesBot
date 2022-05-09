@@ -1,4 +1,5 @@
 ## Functions
+
 ### Function arguments \(2 or fewer ideally\)  
 
 Limiting the number of function parameters is incredibly important because it makes testing your function easier.
@@ -16,14 +17,18 @@ This has a few advantages:
 2. It can be used to simulate named parameters.
 3. Destructuring also clones the specified primitive values of the argument object passed into the function. This can help prevent side effects. Note: objects and arrays that are destructured from the argument object are NOT cloned.
 4. TypeScript warns you about unused properties, which would be impossible without destructuring.
+
 **Bad:**
+
 ```ts
 function createMenu(title: string, body: string, buttonText: string, cancellable: boolean) {
   // ...
 }
 createMenu('Foo', 'Bar', 'Baz', true);
 ```
+
 **Good:**
+
 ```ts
 function createMenu(options: { title: string, body: string, buttonText: string, cancellable: boolean }) {
   // ...

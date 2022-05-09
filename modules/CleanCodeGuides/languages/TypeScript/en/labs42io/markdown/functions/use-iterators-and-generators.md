@@ -1,4 +1,5 @@
 ## Functions
+
 ### Use iterators and generators
 
 Use generators and iterables when working with collections of data used like a stream.  
@@ -8,7 +9,9 @@ items to access
 - lazy execution, items are streamed on-demand
 - built-in support for iterating items using the `for-of` syntax
 - iterables allow implementing optimized iterator patterns
+
 **Bad:**
+
 ```ts
 function fibonacci(n: number): number[] {
   if (n === 1) return [0];
@@ -29,7 +32,9 @@ function print(n: number) {
 // Print first 10 Fibonacci numbers.
 print(10);
 ```
+
 **Good:**
+
 ```ts
 // Generates an infinite stream of Fibonacci numbers.
 // The generator doesn't keep the array of all numbers.

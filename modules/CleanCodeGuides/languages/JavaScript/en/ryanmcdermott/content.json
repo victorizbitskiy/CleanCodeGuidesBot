@@ -65,7 +65,10 @@
     },
     {
       "item": "testing",
-      "children": [{ "item": "single-concept-per-test" }]
+      "children": [
+        { "item": "testing" }, 
+        { "item": "single-concept-per-test" }
+      ]
     },
     {
       "item": "concurrency",
@@ -77,6 +80,7 @@
     {
       "item": "error-handling",
       "children": [
+        { "item": "error-handling" },
         { "item": "dont-ignore-caught-errors" },
         { "item": "dont-ignore-rejected-promises" }
       ]
@@ -84,6 +88,7 @@
     {
       "item": "formatting",
       "children": [
+        { "item": "formatting" },
         { "item": "use-consistent-capitalization" },
         { "item": "function-callers-and-callees-should-be-close" }
       ]

@@ -1,8 +1,10 @@
-## **Асинхронность**
+## Асинхронность
 ### Async/Await делает код чище, чем промисы
+
 Промисы очень хорошая альтернатива колбекам, но в ES2017/ES8 спецификации появился аsync/аwait, который предлагает ещё лучшее решение. Все, что вам нужно, это написать функцию с префиксом `async`, внутри которой вы можете писать вашу асинхронную логику императивно. аsync/аwait можно использовать прямо сейчас при помощи babel.
 
 **Плохо**
+
 ```javascript
 const requestPromise = require('request-promise');
 const fsPromise = require('fs-promise');
@@ -20,6 +22,7 @@ requestPromise.get(url)
 ```
 
 **Хорошо**
+
 ```javascript
 const requestPromise = require('request-promise');
 const fsPromise = require('fs-promise');

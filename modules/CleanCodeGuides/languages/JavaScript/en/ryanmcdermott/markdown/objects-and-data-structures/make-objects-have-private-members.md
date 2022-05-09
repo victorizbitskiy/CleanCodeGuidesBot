@@ -1,6 +1,9 @@
-## **Objects and Data Structures**
+## Objects and Data Structures
+
 ### Make objects have private members
+
 This can be accomplished through closures \(for ES5 and below\).
+
 **Bad:**
 
 ```javascript
@@ -19,6 +22,7 @@ console.log(`Employee name: ${employee.getName()}`); // Employee name: undefined
 ```
 
 **Good:**
+
 ```javascript
 function makeEmployee(name) {
   return {

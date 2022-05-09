@@ -1,7 +1,8 @@
 ## Асинхронность
 
 ### Используйте promises а не callbacks
-Callback-функции ухудшают читаемость и приводят к чрезмерному количеству вложенности *\(ад обратных вызовов\(callback hell\)\)*. Существуют утилиты, которые преобразуют существующие функции, используя стиль callback-ов, в версию, которая возвращает промисы \(для Node.js смотрите [`util.promisify`](https://nodejs.org/dist/latest-v8.x/docs/api/util.html#util_util_promisify_original), для общего назначения смотрите [pify](https://www.npmjs.com/package/pify), [es6-promisify](https://www.npmjs.com/package/es6-promisify))
+
+Callback-функции ухудшают читаемость и приводят к чрезмерному количеству вложенности *\(ад обратных вызовов\(callback hell\)\)*. Существуют утилиты, которые преобразуют существующие функции, используя стиль callback-ов, в версию, которая возвращает промисы \(для Node.js смотрите [`util.promisify`](https://nodejs.org/dist/latest-v8.x/docs/api/util.html#util_util_promisify_original), для общего назначения смотрите [pify](https://www.npmjs.com/package/pify), [es6-promisify](https://www.npmjs.com/package/es6-promisify)\)
 
 **Плохо:**
 

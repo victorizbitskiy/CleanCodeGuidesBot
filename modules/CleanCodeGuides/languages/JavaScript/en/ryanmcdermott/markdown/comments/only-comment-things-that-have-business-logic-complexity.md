@@ -1,8 +1,11 @@
-## **Comments**
+## Comments
+
 ### Only comment things that have business logic complexity.
+
 Comments are an apology, not a requirement. Good code _mostly_ documents itself.  
 
 **Bad:**
+
 ```javascript
 function hashIt(data) {
   // The hash
@@ -24,6 +27,7 @@ function hashIt(data) {
 ```
 
 **Good:**
+
 ```javascript
 function hashIt(data) {
   let hash = 0;

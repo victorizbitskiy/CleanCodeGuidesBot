@@ -1,4 +1,5 @@
-## **Functions**
+## Functions
+
 ### Avoid Side Effects \(part 2\)
 
 In JavaScript, primitives are passed by value and objects/arrays are passed by reference. In the case of objects and arrays, if your function makes a change in a shopping cart array, for example, by adding an item to purchase, then any other function that uses that `cart` array will be affected by this addition. That may be great, however it can be bad too. Let's imagine a bad situation:

@@ -1,10 +1,11 @@
-## **Comments**
+## Comments
 
 ### Don't have journal comments
 
 Remember, use version control! There's no need for dead code, commented code, and especially journal comments. Use `git log` to get history!
 
 **Bad:**
+
 ```java
 /**
  * 2021-03-06: Renamed clean to cleanCode (DL)
@@ -17,6 +18,7 @@ Remember, use version control! There's no need for dead code, commented code, an
 ```
 
 **Good:**
+
 ```java
  cleanCode(String code) {
    return null;

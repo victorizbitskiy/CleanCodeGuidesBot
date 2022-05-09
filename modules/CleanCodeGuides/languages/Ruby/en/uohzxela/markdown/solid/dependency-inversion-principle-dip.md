@@ -1,4 +1,5 @@
-## **SOLID**
+## SOLID
+
 ### Dependency Inversion Principle \(DIP\)
 
 This principle states two essential things:
@@ -20,6 +21,7 @@ example below, the implicit contract is that any Request module for an
 `InventoryTracker` will have a `request_items` method.
 
 **Bad:**
+
 ```ruby
 class InventoryRequester
   def initialize
@@ -51,6 +53,7 @@ inventory_tracker.request_items
 ```
 
 **Good:**
+
 ```ruby
 class InventoryTracker
   def initialize(items, requester)

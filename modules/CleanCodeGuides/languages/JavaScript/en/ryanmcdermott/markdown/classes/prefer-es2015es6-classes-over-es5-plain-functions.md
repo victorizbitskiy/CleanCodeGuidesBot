@@ -1,11 +1,14 @@
-## **Classes**
+## Classes
+
 ### Prefer ES2015/ES6 classes over ES5 plain functions
+
 It's very difficult to get readable class inheritance, construction, and method
 definitions for classical ES5 classes. If you need inheritance \(and be aware
 that you might not\), then prefer ES2015/ES6 classes. However, prefer small functions over
 classes until you find yourself needing larger and more complex objects.  
 
 **Bad:**
+
 ```javascript
 const Animal = function(age) {
   if (!(this instanceof Animal)) {
@@ -45,6 +48,7 @@ Human.prototype.speak = function speak() {};
 ```
 
 **Good:**
+
 ```javascript
 class Animal {
   constructor(age) {

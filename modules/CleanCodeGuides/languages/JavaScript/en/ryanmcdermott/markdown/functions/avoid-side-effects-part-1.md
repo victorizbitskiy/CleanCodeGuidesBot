@@ -1,4 +1,5 @@
-## **Functions**
+## Functions
+
 ### Avoid Side Effects \(part 1\)
 
 A function produces a side effect if it does anything other than take a value in
@@ -16,6 +17,7 @@ and not centralizing where your side effects occur. If you can do this, you will
 be happier than the vast majority of other programmers.  
 
 **Bad:**
+
 ```javascript
 // Global variable referenced by following function.
 // If we had another function that used this name, now it'd be an array and it could break it.
@@ -31,6 +33,7 @@ console.log(name); // ['Ryan', 'McDermott'];
 ```
 
 **Good:**
+
 ```javascript
 function splitIntoFirstAndLastName(name) {
   return name.split(" ");

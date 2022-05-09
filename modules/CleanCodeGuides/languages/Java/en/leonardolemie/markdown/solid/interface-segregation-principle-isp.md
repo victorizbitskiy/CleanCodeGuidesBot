@@ -1,4 +1,5 @@
-## **SOLID**
+## SOLID
+
 ### Interface Segregation Principle \(ISP\)
 
 JavaScript doesn't have interfaces so this principle doesn't apply as strictly as others. However, it's important and relevant even with JavaScript's lack of type system.

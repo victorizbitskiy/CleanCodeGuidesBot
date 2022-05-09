@@ -6,7 +6,9 @@ We then say that the class is *maximally cohesive*. In practice, this, however, 
 Coupling refers to how related or dependent are two classes toward each other. Classes are said to be low coupled if changes in one of them don't affect the other one.  
   
 Good software design has **high cohesion** and **low coupling**.
+
 **Bad:**
+
 ```ts
 class UserManager {
   // Bad: each private variable is used by one or another group of methods.
@@ -39,7 +41,9 @@ class UserManager {
   }
 }
 ```
+
 **Good:**
+
 ```ts
 class UserService {
   constructor(private readonly db: Database) {

@@ -14,7 +14,7 @@ class Car:
     car_color: str
 ```
 
-**Good**:
+**Good**
 
 ```python
 class Car:

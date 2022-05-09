@@ -11,7 +11,7 @@ import datetime
 ymdstr = datetime.date.today().strftime("%y-%m-%d")
 ```
 
-**Good**:
+**Good**
 
 ```python
 import datetime

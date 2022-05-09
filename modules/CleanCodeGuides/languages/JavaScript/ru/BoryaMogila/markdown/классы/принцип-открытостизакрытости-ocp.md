@@ -1,8 +1,10 @@
-## **Классы**
+## Классы
 ### Принцип открытости/закрытости \(OCP\)
+
 Как заявил Бертран Мейер, «сущности \(классы, модули, функции и т.д.\) должны быть открыты для расширения, но закрыты для модификации» \(software entities \(classes, modules, functions, etc.\) should be open for extension, but closed for modification\). Что это значит? Это значит, что вы должны давать возможность расширить функциональность сущности не изменяя существующий код.
 
 **Плохо:**
+
 ```javascript
 class AjaxAdapter extends Adapter {
   constructor() {
@@ -41,6 +43,7 @@ function makeHttpCall(url) {
 ```
 
 **Хорошо:**
+
 ```javascript
 class AjaxAdapter extends Adapter {
   constructor() {

@@ -1,8 +1,11 @@
 ## Functions
+
 ### Favor functional programming over imperative programming
 
 Favor this style of programming when you can.
+
 **Bad:**
+
 ```ts
 const contributions = [
   {
@@ -26,7 +29,9 @@ for (let i = 0; i < contributions.length; i++) {
   totalOutput += contributions[i].linesOfCode;
 }
 ```
+
 **Good:**
+
 ```ts
 const contributions = [
   {

@@ -1,4 +1,4 @@
-## **Functions**
+## Functions
 
 ### Functions should only be one level of abstraction
 

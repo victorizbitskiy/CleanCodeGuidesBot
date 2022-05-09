@@ -1,4 +1,5 @@
-## **SOLID**
+## SOLID
+
 ### Single Responsibility Principle \(SRP\)
 
 As stated in Clean Code, "There should never be more than one reason for a class
@@ -11,6 +12,7 @@ a piece of it, it can be difficult to understand how that will affect other
 dependent modules in your codebase.
 
 **Bad:**
+
 ```ruby
 class UserSettings
   def initialize(user)
@@ -29,6 +31,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 class UserAuth
   def initialize(user)
@@ -52,4 +55,3 @@ class UserSettings
   end
 end
 ```
-**[⬆ back to top](#table-of-contents)**

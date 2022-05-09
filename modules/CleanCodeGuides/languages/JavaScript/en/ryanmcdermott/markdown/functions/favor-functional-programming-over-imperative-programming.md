@@ -1,4 +1,5 @@
-## **Functions**
+## Functions
+
 ### Favor functional programming over imperative programming
 
 JavaScript isn't a functional language in the way that Haskell is, but it has
@@ -6,6 +7,7 @@ a functional flavor to it. Functional languages can be cleaner and easier to tes
 Favor this style of programming when you can.  
 
 **Bad:**
+
 ```javascript
 const programmerOutput = [
   {
@@ -34,6 +36,7 @@ for (let i = 0; i < programmerOutput.length; i++) {
 ```
 
 **Good:**
+
 ```javascript
 const programmerOutput = [
   {

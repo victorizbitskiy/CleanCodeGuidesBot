@@ -1,7 +1,5 @@
 ## Variables
 
-### Avoid Mental Mapping  
-
 ### Avoid Mental Mapping
 
 Don’t force the reader of your code to translate what the variable means.

@@ -65,7 +65,9 @@ config.button_text = "Order now!"
 config.cancellable = True
 create_menu(config)
 ```
+
 **Fancy**
+
 ```python
 from typing import NamedTuple
 class MenuConfig(NamedTuple):
@@ -92,7 +94,9 @@ create_menu(
     )
 )
 ```
+
 **Even fancier**
+
 ```python
 from dataclasses import astuple, dataclass
 @dataclass
@@ -120,7 +124,9 @@ create_menu(
     )
 )
 ```
+
 **Even fancier, Python3.8+ only**
+
 ```python
 from typing import TypedDict
 class MenuConfig(TypedDict):

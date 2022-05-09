@@ -1,9 +1,11 @@
 ### Method callers and callees should be close
+
 If a method calls another, keep those methods vertically close in the source
 file. Ideally, keep the caller right above the callee. We tend to read code from
 top-to-bottom, like a newspaper. Because of this, make your code read that way.
 
 **Bad:**
+
 ```ruby
 class PerformanceReview
   def initialize(employee)
@@ -44,6 +46,7 @@ review.perf_review
 ```
 
 **Good:**
+
 ```ruby
 class PerformanceReview
   def initialize(employee)

@@ -1,4 +1,5 @@
-## **Methods**
+## Methods
+
 ### Avoid Side Effects \(part 1\)
 
 A method produces side effects if it does anything more than take values and/or
@@ -17,6 +18,7 @@ and not centralizing where your side effects occur. If you can do this, you will
 be happier than the vast majority of other programmers.
 
 **Bad:**
+
 ```ruby
 # Global variable referenced by following method.
 # If we had another method that used this name, now it'd be an array and it could break it.
@@ -32,6 +34,7 @@ puts $name # ['Ryan', 'McDermott']
 ```
 
 **Good:**
+
 ```ruby
 def split_into_first_and_last_name(name)
   name.split(' ')

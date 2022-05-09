@@ -1,7 +1,9 @@
 ## Functions
+
 ### Set default objects with Object.assign
 
 **Bad:**
+
 ```ts
 type MenuConfig = { title?: string, body?: string, buttonText?: string, cancellable?: boolean };
 
@@ -16,7 +18,9 @@ function createMenu(config: MenuConfig) {
 
 createMenu({ body: 'Bar' });
 ```
+
 **Good:**
+
 ```ts
 type MenuConfig = { title?: string, body?: string, buttonText?: string, cancellable?: boolean };
 

@@ -2,8 +2,6 @@
 
 ### Use default arguments instead of short circuiting or conditionals
 
-### Use default arguments instead of short circuiting or conditionals
-
 **Tricky**
 
 Why write:
@@ -21,7 +19,7 @@ def create_micro_brewery(name):
 ... when you can specify a default argument instead? This also makes it clear that
 you are expecting a string as the argument.
 
-**Good**:
+**Good**
 
 ```python
 import hashlib

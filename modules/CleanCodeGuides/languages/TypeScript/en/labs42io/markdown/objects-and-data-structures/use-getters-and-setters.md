@@ -1,4 +1,5 @@
 ## Objects and Data Structures
+
 ### Use getters and setters
 
 TypeScript supports getter/setter syntax.
@@ -9,7 +10,9 @@ Using getters and setters to access data from objects that encapsulate behavior 
 - Encapsulates the internal representation.
 - Easy to add logging and error handling when getting and setting.
 - You can lazy load your object's properties, let's say getting it from a server.
+
 **Bad:**
+
 ```ts
 type BankAccount = {
   balance: number;
@@ -28,7 +31,9 @@ if (value < 0) {
 
 account.balance = value;
 ```
+
 **Good:**
+
 ```ts
 class BankAccount {
   private accountBalance: number = 0;

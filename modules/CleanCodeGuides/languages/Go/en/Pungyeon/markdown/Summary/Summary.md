@@ -4,15 +4,15 @@ First of all, thank you for making it all the way through this article! I hope i
 
 Let's briefly sum up all the topics we've covered:
 
-- *Functions* - A function's name should reflect its scope; the smaller the scope of a function, the more specific its name. Ensure that all functions serve a single purpose in as few lines as possible. A good rule of thumb is to limit your functions to 5-8 lines and to only accept 2-3 arguments.
+- _Functions_ - A function's name should reflect its scope; the smaller the scope of a function, the more specific its name. Ensure that all functions serve a single purpose in as few lines as possible. A good rule of thumb is to limit your functions to 5-8 lines and to only accept 2-3 arguments.
 
-- *Variables* - Unlike functions, variables should assume more generic names as their scope becomes smaller. It's also recommended that you limit the scope of a variable as much as possible to prevent unintentional modification. On a similar note, you should keep the modification of variables to a minimum; this becomes an especially important consideration as the scope of a variable grows.
+- _Variables_ - Unlike functions, variables should assume more generic names as their scope becomes smaller. It's also recommended that you limit the scope of a variable as much as possible to prevent unintentional modification. On a similar note, you should keep the modification of variables to a minimum; this becomes an especially important consideration as the scope of a variable grows.
 
-- *Return Values* - Concrete types should be returned whenever possible. Make it as difficult as possible for users of your package to make mistakes and as easy as possible for them to understand the values returned by your functions.
+- _Return Values_ - Concrete types should be returned whenever possible. Make it as difficult as possible for users of your package to make mistakes and as easy as possible for them to understand the values returned by your functions.
 
-- *Pointers* - Use pointers with caution, and limit their scope and mutability to an absolute minimum. Remember: Garbage collection only assists with memory management; it does not assist with all of the other complexities associated with pointers.
+- _Pointers_ - Use pointers with caution, and limit their scope and mutability to an absolute minimum. Remember: Garbage collection only assists with memory management; it does not assist with all of the other complexities associated with pointers.
 
-- *Interfaces* - Use interfaces as much as possible to loosen the coupling of your code. Hide any code using the empty `interface{}` as much as possible from end users to prevent it from being exposed.
+- _Interfaces_ - Use interfaces as much as possible to loosen the coupling of your code. Hide any code using the empty `interface{}` as much as possible from end users to prevent it from being exposed.
 
 As a final note, it's worth mentioning that the notion of clean code is particularly subjective, and that likely won't ever change. However, much like my statement concerning `gofmt`, I think it's more important to find a common standard than something that everyone agrees with; the latter is extremely difficult to achieve.
 

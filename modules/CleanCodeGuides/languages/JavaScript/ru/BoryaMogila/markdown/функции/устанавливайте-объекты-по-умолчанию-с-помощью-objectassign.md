@@ -1,7 +1,9 @@
-## **Функции**
+## Функции
+
 ### Устанавливайте объекты по умолчанию с помощью Object.assign
 
 **Плохо:**
+
 ```javascript
 const menuConfig = {
   title: null,
@@ -19,6 +21,7 @@ createMenu(menuConfig);
 ```
 
 **Хорошо:**
+
 ```javascript
 const menuConfig = {
   title: 'Order',

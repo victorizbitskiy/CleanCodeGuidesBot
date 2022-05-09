@@ -16,7 +16,7 @@ if matches:
     print(f"{matches[1]}: {matches[2]}")
 ```
 
-**Not bad**:
+**Not bad**
 
 It's better, but we are still heavily dependent on regex.
 
@@ -33,7 +33,7 @@ if matches:
     print(f"{city}: {zip_code}")
 ```
 
-**Good**:
+**Good**
 
 Decrease dependence on regex by naming subpatterns.
 

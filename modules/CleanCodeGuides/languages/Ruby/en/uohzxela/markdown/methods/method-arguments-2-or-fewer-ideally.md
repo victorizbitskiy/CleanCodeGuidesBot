@@ -1,4 +1,5 @@
-## **Methods**
+## Methods
+
 ### Method arguments \(2 or fewer ideally\)  
 
 Limiting the amount of method parameters is incredibly important because it
@@ -23,6 +24,7 @@ properties are being used.
 2. If a required keyword argument is missing, Ruby will raise a useful `ArgumentError` that tells us which required argument we must include.
 
 **Bad:**
+
 ```ruby
 def create_menu(title, body)
   # ...
@@ -30,6 +32,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 def create_menu(title:, body:)
   # ...

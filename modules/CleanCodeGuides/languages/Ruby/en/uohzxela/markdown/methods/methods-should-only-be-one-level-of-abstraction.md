@@ -1,4 +1,5 @@
-## **Methods**
+## Methods
+
 ### Methods should only be one level of abstraction
 
 When you have more than one level of abstraction your method is usually
@@ -6,6 +7,7 @@ doing too much. Splitting up methods leads to reusability and easier
 testing. Furthermore, methods should descend by the level of abstraction: one very abstract method should call methods that are less abstract and so on.
 
 **Bad:**
+
 ```ruby
 def interpret(code)
   regexes = [
@@ -30,6 +32,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 def interpret(code)
   tokens = tokenize(code)

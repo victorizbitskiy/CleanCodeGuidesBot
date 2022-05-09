@@ -1,4 +1,5 @@
-## **Methods**
+## Methods
+
 ### Avoid conditionals
 
 This seems like an impossible task. Upon first hearing this, most people say,
@@ -11,6 +12,7 @@ are telling your user that your method does more than one thing. Remember,
 just do one thing.
 
 **Bad:**
+
 ```ruby
 class Airplane
   # ...
@@ -28,6 +30,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 class Airplane
   # ...

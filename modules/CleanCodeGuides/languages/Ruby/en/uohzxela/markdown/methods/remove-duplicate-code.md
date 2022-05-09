@@ -1,4 +1,5 @@
-## **Functions**
+## Functions
+
 ### Remove duplicate code
 
 Do your absolute best to avoid duplicate code. Duplicate code is bad because it
@@ -23,6 +24,7 @@ a good abstraction, do it! Don't repeat yourself, otherwise you'll find yourself
 updating multiple places anytime you want to change one thing.
 
 **Bad:**
+
 ```ruby
 def show_developer_list(developers)
   developers.each do |developer|
@@ -50,6 +52,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 def show_employee_list(employees)
   employees.each do |employee|

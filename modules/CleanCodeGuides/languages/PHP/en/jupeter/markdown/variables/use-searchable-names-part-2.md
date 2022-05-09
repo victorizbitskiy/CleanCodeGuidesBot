@@ -1,4 +1,4 @@
-## **Variables**
+## Variables
 
 ### Use searchable names
 

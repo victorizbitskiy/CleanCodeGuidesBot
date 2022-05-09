@@ -65,6 +65,7 @@
     {
       "item": "formatting",
       "children": [
+        { "item": "formatting" },
         { "item": "use-consistent-capitalization" },
         { "item": "function-callers-and-callees-should-be-close" }
       ]

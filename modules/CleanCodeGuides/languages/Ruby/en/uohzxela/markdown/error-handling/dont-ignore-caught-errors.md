@@ -1,10 +1,7 @@
-## **Error Handling**
-Thrown errors are a good thing! They mean the runtime has successfully
-identified when something in your program has gone wrong and it's letting
-you know by stopping method execution on the current stack, killing the
-process, and notifying you in the logs with a stack trace.
+## Error Handling
 
 ### Don't ignore caught errors
+
 Doing nothing with a caught error doesn't give you the ability to ever fix
 or react to said error. Logging the error
 isn't much better as often times it can get lost in a sea of other logs. If you wrap any bit of code in a `begin/rescue` it means you
@@ -12,6 +9,7 @@ think an error may occur there and therefore you should have a plan,
 or create a code path, for when it occurs.
 
 **Bad:**
+
 ```ruby
 require 'logger'
 
@@ -25,6 +23,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 require 'logger'
 
@@ -44,7 +43,9 @@ rescue StandardError => err
   # OR do all three!
 end
 ```
+
 **Good:**
+
 ```javascript
 getdata()
   .then(data => {

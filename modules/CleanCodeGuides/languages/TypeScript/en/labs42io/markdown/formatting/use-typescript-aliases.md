@@ -1,4 +1,5 @@
 ## Formatting
+
 ### Use typescript aliases
 
 Create prettier imports by defining the paths and baseUrl properties in the compilerOptions section in the `tsconfig.json`

@@ -1,4 +1,5 @@
 ## Testing
+
 ### The name of the test should reveal its intention
 
 When a test fails, its name is the first indication of what may have gone wrong.
@@ -14,7 +15,9 @@ describe('Calendar', () => {
   });
 });
 ```
+
 **Good:**
+
 ```ts
 describe('Calendar', () => {
   it('should handle leap year', () => {

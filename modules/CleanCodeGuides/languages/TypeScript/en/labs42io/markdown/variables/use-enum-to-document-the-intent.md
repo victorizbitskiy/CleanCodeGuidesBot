@@ -1,9 +1,12 @@
 ## Variables
+
 ### Use enum to document the intent
 
 Enums can help you document the intent of the code. For example when we are concerned about values being
 different rather than the exact value of those.
+
 **Bad:**
+
 ```ts
 const GENRE = {
   ROMANTIC: 'romantic',
@@ -22,7 +25,9 @@ class Projector {
   }
 }
 ```
+
 **Good:**
+
 ```ts
 enum GENRE {
   ROMANTIC,

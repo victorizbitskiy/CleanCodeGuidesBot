@@ -1,4 +1,5 @@
-## **Variables**
+## Variables
+
 ### Use explanatory variables
 
 **Bad:**  

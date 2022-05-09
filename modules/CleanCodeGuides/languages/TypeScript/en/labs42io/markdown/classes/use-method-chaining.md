@@ -1,7 +1,9 @@
 ## Classes
+
 ### Use method chaining
 
 This pattern is very useful and commonly used in many libraries. It allows your code to be expressive, and less verbose. For that reason, use method chaining and take a look at how clean your code will be.
+
 **Bad:**
 ```ts
 class QueryBuilder {
@@ -37,7 +39,9 @@ queryBuilder.orderBy('firstName', 'lastName');
 
 const query = queryBuilder.build();
 ```
+
 **Good:**
+
 ```ts
 class QueryBuilder {
   private collection: string;

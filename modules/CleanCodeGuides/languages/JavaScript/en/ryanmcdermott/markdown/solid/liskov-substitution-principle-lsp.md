@@ -1,5 +1,7 @@
-## **SOLID**
+## SOLID
+
 ### Liskov Substitution Principle \(LSP\)
+
 This is a scary term for a very simple concept. It's formally defined as "If S
 is a subtype of T, then objects of type T may be replaced with objects of type S
 \(i.e., objects of type S may substitute objects of type T\) without altering any
@@ -13,6 +15,7 @@ if you model it using the "is-a" relationship via inheritance, you quickly
 get into trouble.  
 
 **Bad:**
+
 ```javascript
 class Rectangle {
   constructor() {
@@ -67,6 +70,7 @@ renderLargeRectangles(rectangles);
 ```
 
 **Good:**
+
 ```javascript
 class Shape {
   setColor(color) {

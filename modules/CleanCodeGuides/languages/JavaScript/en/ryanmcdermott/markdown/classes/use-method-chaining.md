@@ -1,5 +1,7 @@
-## **Classes**
+## Classes
+
 ### Use method chaining
+
 This pattern is very useful in JavaScript and you see it in many libraries such
 as jQuery and Lodash. It allows your code to be expressive, and less verbose.
 For that reason, I say, use method chaining and take a look at how clean your code
@@ -7,6 +9,7 @@ will be. In your class functions, simply return `this` at the end of every funct
 and you can chain further class methods onto it.  
 
 **Bad:**
+
 ```javascript
 class Car {
   constructor(make, model, color) {
@@ -38,6 +41,7 @@ car.save();
 ```
 
 **Good:**
+
 ```javascript
 class Car {
   constructor(make, model, color) {

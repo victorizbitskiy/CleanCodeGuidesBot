@@ -1,10 +1,13 @@
 ## Functions
+
 ### Avoid type-checking
 
 TypeScript is a strict syntactical superset of JavaScript and adds optional static type checking to the language.
 Always prefer to specify types of variables, parameters and return values to leverage the full power of TypeScript features.
 It makes refactoring more easier.
+
 **Bad:**
+
 ```ts
 function travelToTexas(vehicle: Bicycle | Car) {
   if (vehicle instanceof Bicycle) {
@@ -14,7 +17,9 @@ function travelToTexas(vehicle: Bicycle | Car) {
   }
 }
 ```
+
 **Good:**
+
 ```ts
 type Vehicle = Bicycle | Car;
 

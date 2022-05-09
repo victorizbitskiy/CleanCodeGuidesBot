@@ -18,7 +18,7 @@ for item in seq:
     print(item)
 ```
 
-**Good**:
+**Good**
 
 ```python
 locations = ("Austin", "New York", "San Francisco")

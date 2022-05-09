@@ -1,4 +1,5 @@
 ## Testing
+
 ### F.I.R.S.T. rules
 
 Clean tests should follow the rules:

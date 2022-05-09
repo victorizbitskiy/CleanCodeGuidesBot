@@ -1,4 +1,4 @@
-## **Functions**
+## Functions
 
 ### Avoid conditionals
 

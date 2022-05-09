@@ -1,10 +1,12 @@
-## **Comments**
+## Comments
+
 ### Don't have journal comments
 
 Remember, use version control! There's no need for dead code, commented code,
 and especially journal comments. Use `git log` to get history!
 
 **Bad:**
+
 ```ruby
 # 2016-12-20: Removed monads, didn't understand them (RM)
 # 2016-10-01: Improved using special monads (JP)
@@ -16,6 +18,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 def combine(a, b)
   a + b

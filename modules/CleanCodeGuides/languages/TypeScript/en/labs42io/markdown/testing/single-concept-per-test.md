@@ -1,8 +1,11 @@
 ## Testing
+
 ### Single concept per test
 
 Tests should also follow the *Single Responsibility Principle*. Make only one assert per unit test.
+
 **Bad:**
+
 ```ts
 import { assert } from 'chai';
 
@@ -21,7 +24,9 @@ describe('AwesomeDate', () => {
   });
 });
 ```
+
 **Good:**
+
 ```ts
 import { assert } from 'chai';
 

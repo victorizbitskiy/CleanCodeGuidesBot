@@ -1,8 +1,11 @@
 ## Classes
+
 ### Classes should be small
 
 The class' size is measured by its responsibility. Following the *Single Responsibility principle* a class should be small.
+
 **Bad:**
+
 ```ts
 class Dashboard {
   getLanguage(): string { /* ... */ }
@@ -23,7 +26,9 @@ class Dashboard {
 }
 
 ```
+
 **Good:**
+
 ```ts
 class Dashboard {
   disable(): void { /* ... */ }

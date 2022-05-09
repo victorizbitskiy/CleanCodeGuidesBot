@@ -1,5 +1,7 @@
-## **Functions**
+## Functions
+
 ### Avoid Side Effects \(part 2\)
+
 In JavaScript, some values are unchangeable \(immutable\) and some are changeable 
 \(mutable\). Objects and arrays are two kinds of mutable values so it's important 
 to handle them carefully when they're passed as parameters to a function. A 
@@ -31,6 +33,7 @@ Two caveats to mention to this approach:
    it would be for you to manually clone objects and arrays.  
 
 **Bad:**
+
 ```javascript
 const addItemToCart = (cart, item) => {
   cart.push({ item, date: Date.now() });
@@ -38,6 +41,7 @@ const addItemToCart = (cart, item) => {
 ```
 
 **Good:**
+
 ```javascript
 const addItemToCart = (cart, item) => {
   return [...cart, { item, date: Date.now() }];

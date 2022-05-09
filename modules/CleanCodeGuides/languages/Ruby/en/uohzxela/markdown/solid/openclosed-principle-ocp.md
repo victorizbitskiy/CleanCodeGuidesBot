@@ -1,4 +1,4 @@
-## **SOLID**
+## SOLID
 ### Open/Closed Principle \(OCP\)
 
 As stated by [Bertrand Meyer](https://en.wikipedia.org/wiki/Bertrand_Meyer), "software entities \(classes, modules, functions,
@@ -9,6 +9,7 @@ add new functionalities without changing existing code.
 In the "bad" example below adding another adapter would require changing `HttpRequester` class. This violates OCP.
 
 **Bad:**
+
 ```ruby
 class AjaxAdapter
   attr_reader :name
@@ -51,6 +52,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 class AjaxAdapter
   def request(url)

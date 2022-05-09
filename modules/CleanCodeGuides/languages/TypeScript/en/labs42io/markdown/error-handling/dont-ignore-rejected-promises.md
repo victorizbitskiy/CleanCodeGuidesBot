@@ -1,4 +1,5 @@
 ## Error Handling
+
 ### Don't ignore rejected promises
 
 For the same reason you shouldn't ignore caught errors from `try/catch`.

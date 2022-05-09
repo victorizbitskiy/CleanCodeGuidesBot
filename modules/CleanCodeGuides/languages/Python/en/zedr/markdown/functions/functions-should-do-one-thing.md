@@ -7,7 +7,9 @@ than one thing, they are harder to compose, test, and reason about. When you can
 a function to just one action, they can be refactored easily and your code will read much
 cleaner. If you take nothing else away from this guide other than this, you'll be ahead
 of many developers.
+
 **Bad:**
+
 ```python
 from typing import List
 class Client:
@@ -22,7 +24,7 @@ def email_clients(clients: List[Client]) -> None:
             email(client)
 ```
 
-**Good**:
+**Good**
 
 ```python
 from typing import List

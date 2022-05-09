@@ -1,4 +1,5 @@
-## **Formatting**
+## Formatting
+
 Formatting is subjective. Like many rules herein, there is no hard and fast
 rule that you must follow. The main point is DO NOT ARGUE over formatting.
 There are tons of tools like [RuboCop](https://github.com/bbatsov/rubocop) to automate this.

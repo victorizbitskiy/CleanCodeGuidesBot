@@ -1,4 +1,5 @@
-## **SOLID**
+## SOLID
+
 ### Interface Segregation Principle \(ISP\)
 
 Ruby doesn't have interfaces so this principle doesn't apply as strictly
@@ -14,6 +15,7 @@ When a client depends upon a class that contains interfaces that the client does
 The following example is taken from [here](http://geekhmer.github.io/blog/2015/03/18/interface-segregation-principle-in-ruby/).
 
 **Bad:**
+
 ```ruby
 class Car
   # used by Driver
@@ -48,6 +50,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 # used by Driver only
 class Car

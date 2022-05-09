@@ -1,4 +1,5 @@
-## **SOLID**
+## SOLID
+
 ### Dependency Inversion Principle \(DIP\)
 
 This principle states two essential things:

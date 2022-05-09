@@ -1,4 +1,5 @@
-## **Methods**
+## Methods
+
 ### Avoid type-checking \(part 2\)
 
 If you are working with basic values like strings and integers,
@@ -9,6 +10,7 @@ doesn't make up for the lost readability. Keep your Ruby clean, write
 good tests, and have good code reviews.
 
 **Bad:**
+
 ```ruby
 def combine(val1, val2)
   if (val1.is_a?(Numeric) && val2.is_a?(Numeric)) ||
@@ -21,6 +23,7 @@ end
 ```
 
 **Good:**
+
 ```ruby
 def combine(val1, val2)
   val1 + val2

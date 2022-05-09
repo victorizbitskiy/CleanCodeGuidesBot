@@ -1,4 +1,5 @@
-## **SOLID**
+## SOLID
+
 ### Liskov Substitution Principle \(LSP\)
 
 This is a scary term for a very simple concept. It's formally defined as "If S is a subtype of T, then objects of type T may be replaced with objects of type S \(i.e., objects of type S may substitute objects of type T\) without altering any of the desirable properties of that program \(correctness, task performed, etc.\)." That's an even scarier definition.
