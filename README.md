@@ -38,7 +38,13 @@ The following languages are currently supported:
   [ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)  
 - Russian:  
   [BoryaMogila/clean-code-javascript-ru](https://github.com/BoryaMogila/clean-code-javascript-ru)   
-  [maksugr/clean-code-javascript](https://github.com/maksugr/clean-code-javascript)  
+  [maksugr/clean-code-javascript](https://github.com/maksugr/clean-code-javascript)
+  
+**5. TypeScript**  
+- English:  
+  [labs42io/clean-code-typescript](https://github.com/labs42io/clean-code-typescript)  
+- Russian:  
+  [Real001/clean-code-typescript](https://github.com/Real001/clean-code-typescript)   
   
 **6. PHP**
 - English:  
