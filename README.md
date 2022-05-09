@@ -1,6 +1,6 @@
 <img src="https://github.com/victorizbitskiy/CleanCodeGuidesBot/blob/main/docs/img/logo.png" height="120px"/>
 
-## Clean Code Guides Telegram Bot
+### Clean Code Guides Telegram Bot
 
 [![Telegram](https://img.shields.io/badge/Telegram-@CleanCodeGuidesBot-27A03E?style=flat&logo=telegram)](https://t.me/CleanCodeGuidesBot)
 
@@ -19,7 +19,14 @@ The following languages are currently supported:
 [![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)](https://www.ruby-lang.org)
 [![.NET](https://img.shields.io/badge/.NET-6C4675?style=flat-square&logo=.NET&logoColor=white)](https://dotnet.microsoft.com/en-us)
 
-**1. ABAP**
+### Sources of Clean Code adaptations
+
+<details open>
+<base target="_blank">
+<summary>List...</summary>
+<br>
+ 
+ **1. ABAP**
 - English:  
   [SAP/styleguides](https://github.com/SAP/styleguides/blob/main/clean-abap/CleanABAP.md)
 - Russian:  
@@ -63,3 +70,11 @@ The following languages are currently supported:
 **9. .NET**
 - English:  
   [thangchung/clean-code-dotnet](https://github.com/thangchung/clean-code-dotnet)  
+   
+</details>
+
+### How to contribute
+[This instruction](https://docs.github.com/en/get-started/quickstart/contributing-to-projects) or [this one](https://github.com/firstcontributions/first-contributions) will help you.
+  
+### Got questions?
+If you have questions or general suggestions, don't hesitate to submit a new [(GitHub issue)](https://github.com/victorizbitskiy/CleanCodeGuidesBot/issues).
