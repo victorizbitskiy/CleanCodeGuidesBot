@@ -6,12 +6,6 @@
 
 This is a Telegram bot that has been created to help you make your code cleaner.
 It provides an interface to work with adaptations of [Robert C. Martin's](https://github.com/unclebob) [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) for several programming languages.  
-
- ---
-
-<p align="center">Don't forget to click ⭐ if you like the project!<p>
-
----
  
 The following languages are currently supported:  
 
@@ -25,6 +19,12 @@ The following languages are currently supported:
 [![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=flat-square&logo=ruby&logoColor=white)](https://www.ruby-lang.org)
 [![.NET](https://img.shields.io/badge/.NET-6C4675?style=flat-square&logo=.NET&logoColor=white)](https://dotnet.microsoft.com/en-us)
 
+---
+
+<p align="center">Don't forget to click ⭐ if you like the project!<p>
+
+---
+ 
 ### Sources of Clean Code adaptations
 
 <details>
